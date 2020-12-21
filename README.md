@@ -1,4 +1,9 @@
-# ojito
+# Ojito
+
+Observatorio Joven de Incidencia Política
+
+Made with Vue3
+
 
 ## Project setup
 ```
