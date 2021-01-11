@@ -1,0 +1,75 @@
+{
+  "parties": [{
+    "id": 1,
+    "name": "Partido Socialista Obrero Español",
+    "shortName": "PSOE",
+    "color": "#FF0000",
+    "commitments": [{
+      "name": "Género",
+      "commits": [{
+        "title": "Lorem ipsum dolor sit amet, consectetur adisciplinit elit",
+        "date": "2020-09-11",
+        "link": "https://www.psoe.es/media-content/2019/04/PSOE-programa-electoral-elecciones-generales-28-de-abril-de-2019.pdf",
+        "acc": 7,
+        "total": 10,
+        "activities": [{
+          "title": "Lorem ipsum dolor sit amet, consectetur adisciplinit elit",
+          "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
+        }, {
+          "title": "Lorem ipsum dolor sit amet, consectetur adisciplinit elit",
+          "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
+        }]
+      }, {
+        "title": "Consectetur adisciplinit elit, lorem ipsum dolor sit amet adisciplinit elit sit amet adisciplinit elit",
+        "date": "2020-09-02",
+        "link": "https://www.psoe.es/media-content/2019/04/PSOE-programa-electoral-elecciones-generales-28-de-abril-de-2019.pdf",
+        "acc": 3,
+        "total": 12,
+        "activities": [{
+          "title": "Lorem ipsum dolor sit amet, adisciplinit consectetur adisciplinit elit",
+          "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
+        }, {
+          "title": "Lorem ipsum dolor sit amet, consectetur adisciplinit elit",
+          "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
+        }]
+      }],
+      "statements": [{
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
+      }, {
+        "title": "Consectetur adisciplinit elit, lorem ipsum dolor sit amet",
+        "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
+      }]
+    }, {
+      "name": "Migrantes"
+    }, {
+      "name": "Empleo"
+    }, {
+      "name": "Clima"
+    }]
+  }, {
+    "id": 2,
+    "name": "Partido Popular",
+    "shortName": "PP",
+    "color": "#1D84CE",
+    "commitments": []
+  }, {
+    "id": 3,
+    "name": "Vox",
+    "shortName": "Vox",
+    "color": "#63BE21",
+    "commitments": []
+  }, {
+    "id": 4,
+    "name": "Unidas Podemos",
+    "shortName": "UP",
+    "color": "#5A205A",
+    "commitments": []
+  }, {
+    "id": 5,
+    "name": "Ciudadanos",
+    "shortName": "Cs",
+    "color": "#EB6109",
+    "commitments": []
+  }]
+}

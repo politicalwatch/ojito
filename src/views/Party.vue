@@ -1,0 +1,114 @@
+<template>
+  <div class="page page--party party">
+
+    <router-link :to="{name: 'home'}" class="page__close">
+      <img src="img/icons/close.svg" alt="Cerrar">
+    </router-link>
+
+    <div class="party__head">
+      <h1 class="party__name">{{party.shortName}}</h1>
+      <p class="party__hint">Selecciona el compromiso para ver el detalle</p>
+    </div>
+
+    <div class="party__tabs">
+      <div
+        v-for="(tab, i) in party.commitments"
+        :key="i"
+        class="party__tab"
+        :class="{'is-active': commitment.name === tab.name}"
+        @click="setCommitment(tab)">
+        <div>{{tab.name}}</div>
+      </div>
+    </div>
+
+    <PartyDetails :commitment="commitment"></PartyDetails>
+
+  </div>
+</template>
+
+<script>
+import { mapGetters } from 'vuex';
+import PartyDetails from '@/components/PartyDetails.vue';
+
+export default {
+  name: 'Party',
+  components: {
+    PartyDetails,
+  },
+  data() {
+    return {
+      commitment: {},
+    };
+  },
+  computed: {
+    ...mapGetters(['parties', 'party']),
+  },
+  created() {
+    if (!this.party.id) {
+      // Load party if it's not loaded yet
+      const party = this.parties
+        .find((p) => p.shortName === this.$route.params.party);
+      this.$store.dispatch('setParty', party);
+    }
+
+    // Set initial active tab
+    this.setCommitment(this.party.commitments[0]);
+
+    // Change body color
+    const body = document.getElementsByTagName('body')[0];
+    body.style.backgroundColor = this.party.color;
+  },
+  methods: {
+    setCommitment(commit) {
+      this.commitment = commit;
+    },
+  },
+};
+</script>
+
+<style lang="scss">
+.party {
+
+  &__name {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 12px;
+  }
+
+  &__tabs {
+    display: flex;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      height: 0;
+    }
+    &::-webkit-scrollbar-track {
+      opacity: 0;
+      display: none;
+      -webkit-box-shadow: none;
+    }
+    &::-webkit-scrollbar-thumb {
+      opacity: 0;
+      display: none;
+      -webkit-box-shadow: none;
+    }
+  }
+  &__tab {
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding: 0 20px 4px;
+    cursor: pointer;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &.is-active {
+      color: black;
+      border-bottom-color: black;
+    }
+  }
+}
+</style>
