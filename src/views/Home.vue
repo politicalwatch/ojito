@@ -1,6 +1,12 @@
 <template>
   <div class="page page--home">
 
+    <div class="cover">
+      <video autoplay muted loop>
+        <source src="/video/cover.mp4" type="video/mp4">
+      </video>
+    </div>
+
     <div class="logo">
       <img src="img/logo.svg" alt="Ojito" id="logo">
     </div>
@@ -46,6 +52,35 @@ export default {
 </script>
 
 <style lang="scss">
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  video {
+    max-width: unset;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .cover video {
+    width: auto;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+}
+@media (min-aspect-ratio: 16/9) {
+  .cover video {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .logo {
   display: block;
   max-width: 360px;
