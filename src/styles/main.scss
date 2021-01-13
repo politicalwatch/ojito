@@ -8,6 +8,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   height: 100%;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -30,6 +34,7 @@ a {
 
 .page {
   padding: 10px;
+  width: 100%;
 
   &__close {
     position: absolute;
@@ -57,11 +62,6 @@ a {
 }
 
 @media screen and (min-width: 1180px) {
-  #app {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
   .page {
     max-width: 1110px;
     margin: 0 auto;

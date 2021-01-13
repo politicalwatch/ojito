@@ -1,11 +1,34 @@
 {
+  "topics": [{
+    "id": "gender",
+    "name": "Género"
+  }, {
+    "id": "migrants",
+    "name": "Migrantes"
+  }, {
+    "id": "jobs",
+    "name": "Empleo"
+  }, {
+    "id": "climate",
+    "name": "Clima"
+  }],
   "parties": [{
     "id": 1,
     "name": "Partido Socialista Obrero Español",
     "shortName": "PSOE",
     "color": "#FF0000",
+    "background": "https://estaticos-cdn.elperiodico.com/clip/76a455b5-2342-44ce-809c-4375afc0c2da_alta-libre-aspect-ratio_default_0.jpg",
+    "overview": [{
+      "id": "gender",
+      "acc": 7,
+      "total": 10
+    }, {
+      "id": "migrants",
+      "acc": 2,
+      "total": 6
+    }],
     "commitments": [{
-      "name": "Género",
+      "id": "gender",
       "commits": [{
         "title": "Lorem ipsum dolor sit amet, consectetur adisciplinit elit",
         "date": "2020-09-11",
@@ -41,35 +64,39 @@
         "link": "https://www.europapress.es/nacional/noticia-sanchez-quiere-psoe-activado-derecha-semana-declara-franco-8m-20200608174630.html"
       }]
     }, {
-      "name": "Migrantes"
+      "id": "migrants"
     }, {
-      "name": "Empleo"
+      "id": "jobs"
     }, {
-      "name": "Clima"
+      "id": "climate"
     }]
   }, {
     "id": 2,
     "name": "Partido Popular",
     "shortName": "PP",
     "color": "#1D84CE",
+    "background": "https://img2.rtve.es/imagenes/congreso-pp-discurso-integro-pablo-casado/1532170086366.jpg",
     "commitments": []
   }, {
     "id": 3,
     "name": "Vox",
     "shortName": "Vox",
     "color": "#63BE21",
+    "background": "https://www.diariodejerez.es/2019/10/30/jerez/Vox-Real-Escuela-Jerez-imagenes_1405370336_111968554_640x360.jpg",
     "commitments": []
   }, {
     "id": 4,
     "name": "Unidas Podemos",
     "shortName": "UP",
     "color": "#5A205A",
+    "background": "https://www.elplural.com/uploads/s1/81/58/60/el-secretario-general-de-podemos-pablo-iglesias-fuente-podemos.jpeg",
     "commitments": []
   }, {
     "id": 5,
     "name": "Ciudadanos",
     "shortName": "Cs",
     "color": "#EB6109",
+    "background": "https://s1.eestatic.com/2019/11/02/espana/politica/Ines_Arrimadas-Ciudadanos-Elecciones_Generales_10-N_2019-Politica_441467416_136870629_1706x960.jpg",
     "commitments": []
   }]
 }

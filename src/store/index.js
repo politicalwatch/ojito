@@ -3,10 +3,17 @@ import axios from 'axios';
 
 export default createStore({
   state: {
+    topics: [],
     parties: [],
     party: {},
   },
   mutations: {
+    /**
+     * Update topics
+     */
+    updateTopics(state, data) {
+      state.topics = data;
+    },
     /**
      * Update parties data
      */
@@ -28,6 +35,7 @@ export default createStore({
       return new Promise((resolve, reject) => {
         axios.get(process.env.VUE_APP_PARTIES_DATA_URL)
           .then((response) => {
+            this.commit('updateTopics', response.data.topics);
             this.commit('updateParties', response.data.parties);
             resolve(response.data);
           })
@@ -44,6 +52,7 @@ export default createStore({
     },
   },
   getters: {
+    topics(state) { return state.topics; },
     parties(state) { return state.parties; },
     party(state) { return state.party; },
   },

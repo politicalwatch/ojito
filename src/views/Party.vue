@@ -15,9 +15,9 @@
         v-for="(tab, i) in party.commitments"
         :key="i"
         class="party__tab"
-        :class="{'is-active': commitment.name === tab.name}"
+        :class="{'is-active': commitment.id === tab.id}"
         @click="setCommitment(tab)">
-        <div>{{tab.name}}</div>
+        <div>{{getCommitmentName(tab)}}</div>
       </div>
     </div>
 
@@ -41,7 +41,7 @@ export default {
     };
   },
   computed: {
-    ...mapGetters(['parties', 'party']),
+    ...mapGetters(['parties', 'topics', 'party']),
   },
   created() {
     if (!this.party.id) {
@@ -54,21 +54,31 @@ export default {
     // Set initial active tab
     this.setCommitment(this.party.commitments[0]);
 
-    // Change body color
+    // Change body background
     const body = document.getElementsByTagName('body')[0];
     body.style.backgroundColor = this.party.color;
+    body.style.backgroundImage = `url(${this.party.background})`;
   },
   methods: {
     setCommitment(commit) {
       this.commitment = commit;
     },
+    getCommitmentName(commitment) {
+      const topic = this.topics.find((t) => t.id === commitment.id);
+      return topic.name;
+    },
+  },
+  beforeUnmount() {
+    this.$store.dispatch('setParty', {});
+    const body = document.getElementsByTagName('body')[0];
+    body.style.backgroundColor = '#000';
+    body.style.backgroundImage = undefined;
   },
 };
 </script>
 
 <style lang="scss">
 .party {
-
   &__name {
     font-size: 42px;
     font-weight: 700;
@@ -108,6 +118,14 @@ export default {
     &.is-active {
       color: black;
       border-bottom-color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .party {
+    &__name {
+      margin-top: 100px;
     }
   }
 }
