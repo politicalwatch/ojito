@@ -2,7 +2,7 @@
   <div class="page page--party party">
 
     <router-link :to="{name: 'home'}" class="page__close">
-      <img src="img/icons/close.svg" alt="Cerrar">
+      <img src="/img/icons/close.svg" alt="Cerrar">
     </router-link>
 
     <div class="party__head">
@@ -85,6 +85,10 @@ export default {
     line-height: 1.2;
     margin-bottom: 0;
     margin-top: 12px;
+  }
+
+  &__hint {
+    font-size: 14px;
   }
 
   &__tabs {

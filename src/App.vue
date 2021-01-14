@@ -4,16 +4,21 @@
     <div
       class="main__back"
       v-if="party.id"
-      :style="{backgroundColor: this.party.color}"
+      :style="{backgroundColor: party.color}"
     ></div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
+  components: {
+    Footer,
+  },
   computed: {
     ...mapGetters(['party']),
   },
@@ -26,10 +31,9 @@ export default {
 <style lang="scss">
 .main {
   height: 100%;
-  overflow: auto;
   position: relative;
   &__back {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

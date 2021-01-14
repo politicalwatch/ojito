@@ -120,7 +120,7 @@ export default {
   display: block;
   max-width: 360px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 10px 30px;
 }
 
 </style>

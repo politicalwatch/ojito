@@ -64,6 +64,7 @@ export default {
 .partydetails {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 
   &__commits {
     margin-bottom: 24px;
