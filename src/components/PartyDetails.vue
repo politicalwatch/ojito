@@ -1,7 +1,18 @@
 <template>
   <div class="partydetails">
 
-    <div class="partydetails__chart">chart here</div>
+    <div class="partydetails__chart">
+      <PartyChart :valuePercent="percent"></PartyChart>
+      <p class="partydetails__chart-legend">
+        Lorem ipsum dolor sit amet
+      </p>
+      <div class="partydetails__chart-center">
+        <TallyMarksChart
+          :color="tallyMarksColor"
+          :datum="[datum]"
+        ></TallyMarksChart>
+      </div>
+    </div>
 
     <div class="partydetails__commits">
       <h2>Compromisos</h2>
@@ -43,18 +54,43 @@
 </template>
 
 <script>
+import PartyChart from '@/components/PartyChart.vue';
 import MiniChart from '@/components/MiniChart.vue';
+import TallyMarksChart from '@/components/TallyMarksChart.vue';
 
 export default {
   name: 'PartyDetails',
   components: {
+    PartyChart,
     MiniChart,
+    TallyMarksChart,
   },
   props: {
     commitment: {
       type: Object,
       required: true,
       default: () => ({}),
+    },
+  },
+  computed: {
+    datum() {
+      if (!this.commitment || !this.commitment.commits) {
+        return { acc: 0, total: 0 };
+      }
+      return this.commitment.commits.reduce((acum, o) => ({
+        acc: acum.acc + o.acc,
+        total: acum.total + o.total,
+      }), { acc: 0, total: 0 });
+    },
+    percent() {
+      return !this.datum || this.datum.total < 1
+        ? 0
+        : (this.datum.acc / this.datum.total) * 100;
+    },
+  },
+  methods: {
+    tallyMarksColor(topic, i) {
+      return (i < this.datum.acc) ? 'black' : 'white';
     },
   },
 };
@@ -111,7 +147,17 @@ export default {
 
   &__chart {
     text-align: center;
-    margin: 80px 0;
+    margin: 20px 0;
+    max-width: 100%;
+    position: relative;
+    &-center {
+      position: absolute;
+      width: 100%;
+      height: 14px;
+      left: 0;
+      top: calc(50% - 27px);
+      text-align: center;
+    }
   }
 }
 
@@ -153,6 +199,7 @@ export default {
     &__statements,
     &__chart {
       flex: 0 0 calc(33% - 20px);
+      max-width: calc(33% - 20px);
     }
     &__chart {
       order: 3;

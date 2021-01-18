@@ -5,7 +5,7 @@
         v-for="(mark, j) in Array(topic.total)"
         :key="j"
         class="tallymarks__mark"
-        :style="{backgroundColor: getColor(topic)}"
+        :style="{backgroundColor: color(topic, j)}"
       ></div>
     </div>
   </div>
@@ -20,16 +20,10 @@ export default {
       required: true,
       default: () => ([]),
     },
-  },
-  methods: {
-    getColor(topic) {
-      if (topic.acc / topic.total > 0.7) {
-        return 'green';
-      }
-      if (topic.acc / topic.total > 0.4) {
-        return 'yellow';
-      }
-      return 'red';
+    color: {
+      type: Function,
+      required: false,
+      default: () => 'white',
     },
   },
 };
@@ -49,6 +43,9 @@ $mark-width: 2px;
     height: 100%;
     min-height: 1px;
     margin-right: 4px;
+    &:last-child {
+      margin-right: 0;
+    }
   }
   &__mark {
     background: white;
@@ -61,6 +58,9 @@ $mark-width: 2px;
     overflow: hidden;
     &:nth-child(5n) {
       transform: translate(-10px, 0) rotate(50deg) scaleY(1.3);
+    }
+    &:last-child {
+      margin-right: 0;
     }
   }
 }

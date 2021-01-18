@@ -28,8 +28,7 @@ const router = createRouter({
   routes,
   history: createWebHistory(process.env.BASE_URL),
   scrollBehavior() {
-    // const body = document.getElementsByTagName('body')[0];
-    // body.scrollIntoView();
+    document.getElementById('app').scrollTop = 0;
     return { left: 0, top: 0 };
   },
 });

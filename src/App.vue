@@ -30,7 +30,6 @@ export default {
 
 <style lang="scss">
 .main {
-  height: 100%;
   position: relative;
   &__back {
     position: fixed;
@@ -44,13 +43,4 @@ export default {
     pointer-events: none;
   }
 }
-/*
-@media screen and (min-width: 1180px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-*/
 </style>

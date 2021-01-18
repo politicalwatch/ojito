@@ -4,7 +4,7 @@
       {{party.shortName}}
     </div>
     <div class="party-chip__values">
-      <TallyMarksChart :datum="partyOverview"></TallyMarksChart>
+      <TallyMarksChart :datum="partyOverview" :color="tallyMarksColor"></TallyMarksChart>
     </div>
   </div>
 </template>
@@ -38,6 +38,15 @@ export default {
           party: this.party.shortName,
         },
       });
+    },
+    tallyMarksColor(topic) {
+      if (topic.acc / topic.total > 0.7) {
+        return 'green';
+      }
+      if (topic.acc / topic.total > 0.4) {
+        return 'yellow';
+      }
+      return 'red';
     },
   },
 };
