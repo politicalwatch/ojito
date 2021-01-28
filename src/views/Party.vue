@@ -1,6 +1,10 @@
 <template>
   <div class="page page--party party">
 
+    <router-link :to="{name: 'home'}" class="page__logo">
+      <img src="/img/logo-sm.svg" alt="Ojito">
+    </router-link>
+
     <router-link :to="{name: 'home'}" class="page__close">
       <img src="/img/icons/close.svg" alt="Cerrar">
     </router-link>
@@ -84,7 +88,7 @@ export default {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 0;
-    margin-top: 12px;
+    margin-top: 32px;
   }
 
   &__hint {
