@@ -12,13 +12,21 @@ export default createStore({
      * Update topics
      */
     updateTopics(state, data) {
-      state.topics = data;
+      state.topics = data.topics;
     },
     /**
      * Update parties data
      */
     updateParties(state, data) {
-      state.parties = data;
+      const topics = new Map();
+      data.topics.forEach((topic) => topics.set(topic.id, topic.name));
+
+      // Sort commitments alphabetically before assigning
+      state.parties = data.parties.map((party) => ({
+        ...party,
+        commitments: party.commitments
+          .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
+      }));
     },
     /**
      * Update party data
@@ -35,8 +43,8 @@ export default createStore({
       return new Promise((resolve, reject) => {
         axios.get(process.env.VUE_APP_PARTIES_DATA_URL)
           .then((response) => {
-            this.commit('updateTopics', response.data.topics);
-            this.commit('updateParties', response.data.parties);
+            this.commit('updateTopics', response.data);
+            this.commit('updateParties', response.data);
             resolve(response.data);
           })
           .catch((error) => {
