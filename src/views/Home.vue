@@ -13,6 +13,7 @@
 
     <div class="topic-filter">
       <select name="filter" id="filter">
+        <option selected disabled>Selecciona una temática</option>
         <option
           v-for="(topic, i) in topics"
           :key="i"
