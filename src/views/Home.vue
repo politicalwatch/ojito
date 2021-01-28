@@ -28,6 +28,10 @@
         :party="party"
       ></PartyChip>
     </div>
+
+    <a href="https://politicalwatch.es/" class="tenant">
+      <img src="img/politicalwatch.png" alt="PoliticalWatch">
+    </a>
   </div>
 </template>
 
@@ -121,6 +125,16 @@ export default {
   max-width: 360px;
   margin: 0 auto;
   padding: 0 10px 30px;
+}
+
+.tenant {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  img {
+    width: 200px;
+  }
 }
 
 </style>
