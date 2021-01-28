@@ -62,6 +62,9 @@ export default {
     const body = document.getElementsByTagName('body')[0];
     body.style.backgroundColor = this.party.color;
     body.style.backgroundImage = `url(${this.party.background})`;
+
+    // Capture ESC key
+    window.addEventListener('keyup', this.escapeKeyPress);
   },
   methods: {
     setCommitment(commit) {
@@ -71,12 +74,18 @@ export default {
       const topic = this.topics.find((t) => t.id === commitment.id);
       return topic.name;
     },
+    escapeKeyPress(event) {
+      if (event.key === 'Escape') {
+        window.location.href = '/';
+      }
+    },
   },
   beforeUnmount() {
     this.$store.dispatch('setParty', {});
     const body = document.getElementsByTagName('body')[0];
     body.style.backgroundColor = '#000';
     body.style.backgroundImage = undefined;
+    window.removeEventListener('keyup', this.escapeKeyPress);
   },
 };
 </script>
