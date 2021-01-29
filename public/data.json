@@ -6563,7 +6563,7 @@
         {
             "name": "Esquerra Republicana de Catalunya",
             "shortname": "ERC",
-            "color": "#fbf651",
+            "color": "#FFB232",
             "overview": [
                 {
                     "id": "pobreza-infantil",
@@ -12008,7 +12008,7 @@
         {
             "name": "Compromís",
             "shortname": "Compromís",
-            "color": "#f60",
+            "color": "#ff6600",
             "overview": [
                 {
                     "id": "pobreza-infantil",
