@@ -82,8 +82,7 @@ export default {
       this.setCommitment(party.commitments[0]);
       // Change body background
       const body = document.getElementsByTagName('body')[0];
-      // body.style.backgroundColor = party.color;
-      body.style.background = `linear-gradient(68deg, ${party.color}99 0%, ${party.color} 100%)`;
+      body.style.background = `linear-gradient(90deg, ${party.color}99 30%, ${party.color} 100%)`;
     },
   },
   watch: {
