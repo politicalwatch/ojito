@@ -1,3 +1,6 @@
+parser/overview.csv
+parser/commitments.csv
+
 .DS_Store
 node_modules
 /dist
