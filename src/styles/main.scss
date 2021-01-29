@@ -1,6 +1,7 @@
 html {
   height: 100%;
   overflow: auto;
+  background: black;
 }
 
 body {
@@ -8,13 +9,10 @@ body {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  height: 100%;
   background-size: cover;
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
-  max-height: 100%;
-  overflow: hidden;
 }
 
 a {
@@ -31,8 +29,6 @@ a {
 }
 
 #app {
-  height: 100%;
-  overflow-y: scroll;
 }
 
 .page {
@@ -49,6 +45,7 @@ a {
     padding: 12px;
     cursor: pointer;
     transition: opacity 250ms ease;
+    background: #000000;
     img {
       width: 16px;
       height: auto;

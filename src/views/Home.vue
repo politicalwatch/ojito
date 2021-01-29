@@ -50,8 +50,7 @@ export default {
   },
   created() {
     const body = document.getElementsByTagName('body')[0];
-    body.style.backgroundColor = '#000';
-    body.style.backgroundImage = undefined;
+    body.style.background = 'transparent';
   },
 };
 </script>
@@ -63,8 +62,9 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
   overflow: hidden;
+  pointer-events: none;
   video {
     max-width: unset;
   }
@@ -90,6 +90,8 @@ export default {
   display: block;
   max-width: 360px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
   img {
     width: 100%;
   }
@@ -99,6 +101,8 @@ export default {
   display: block;
   max-width: 360px;
   margin: 0 auto 60px;
+  position: relative;
+  z-index: 1;
   select {
     display: block;
     width: calc(100% - 50px);
@@ -122,6 +126,8 @@ export default {
 }
 
 .parties-list {
+  position: relative;
+  z-index: 1;
   display: block;
   max-width: 360px;
   margin: 0 auto;

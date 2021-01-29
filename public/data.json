@@ -29,7 +29,7 @@
         {
             "name": "Gobierno",
             "shortname": "Gobierno",
-            "color": "#13143F",
+            "color": "#ab2f68",
             "overview": [
                 {
                     "id": "pobreza-infantil",
@@ -11913,7 +11913,7 @@
         {
             "name": "Compromís",
             "shortname": "Compromís",
-            "color": "#f60",
+            "color": "#ff6600",
             "overview": [
                 {
                     "id": "pobreza-infantil",

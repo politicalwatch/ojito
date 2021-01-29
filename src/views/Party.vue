@@ -25,7 +25,10 @@
       </div>
     </div>
 
-    <PartyDetails :commitment="commitment" :overview="party.overview"></PartyDetails>
+    <PartyDetails
+      :commitment="commitment"
+      :overview="party.overview"
+    ></PartyDetails>
 
   </div>
 </template>
@@ -79,8 +82,8 @@ export default {
       this.setCommitment(party.commitments[0]);
       // Change body background
       const body = document.getElementsByTagName('body')[0];
-      body.style.backgroundColor = party.color;
-      body.style.backgroundImage = `url(${party.background})`;
+      // body.style.backgroundColor = party.color;
+      body.style.background = `linear-gradient(68deg, ${party.color}99 0%, ${party.color} 100%)`;
     },
   },
   watch: {
@@ -89,8 +92,7 @@ export default {
   beforeUnmount() {
     this.$store.dispatch('setParty', {});
     const body = document.getElementsByTagName('body')[0];
-    body.style.backgroundColor = '#000';
-    body.style.backgroundImage = undefined;
+    body.style.background = 'transparent';
     window.removeEventListener('keyup', this.escapeKeyPress);
   },
 };
@@ -104,10 +106,12 @@ export default {
     line-height: 1.2;
     margin-bottom: 0;
     margin-top: 32px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
   }
 
   &__hint {
     font-size: 14px;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
   }
 
   &__tabs {
@@ -131,16 +135,20 @@ export default {
     font-size: 18px;
     font-weight: 600;
     border-bottom: 1px solid white;
-    padding: 0 20px 4px;
+    padding: 5px 20px 4px;
     cursor: pointer;
     white-space: pre;
 
+    > div {
+      text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    }
+
     &:first-child {
-      padding-left: 0;
+      // padding-left: 0;
     }
 
     &.is-active {
-      color: black;
+      background: #000000;
       border-bottom-color: black;
     }
   }

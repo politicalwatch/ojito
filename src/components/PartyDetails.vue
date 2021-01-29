@@ -23,28 +23,27 @@
         class="partydetails__commit"
       >
         <div class="partydetails__commit">
-          <h3 class="partydetails__commit-title">{{commit.title}}</h3>
-          <span class="partydetails__commit-meta">
-            <a class="partydetails__commit-link" :href="commit.link" target="_blank" rel="noopener">
-              Descargar PDF
-            </a>
-          </span>
+          <div class="partydetails__commit-head">
+            <img
+              class="partydetails__commit-compliance"
+              :src="`/img/compliance/${getComplianceStr(commit)}.svg`"
+              :alt="getComplianceStr(commit)">
+            <h3 class="partydetails__commit-title">
+              {{commit.title}}
+              <span class="partydetails__commit-meta">
+                <a
+                  class="partydetails__commit-link"
+                  :href="commit.link"
+                  target="_blank"
+                  rel="noopener">
+                  Descargar PDF
+                </a>
+              </span>
+            </h3>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="partydetails__statements">
-      <h2>Declaraciones</h2>
-      <a
-        v-for="(state, i) in commitment.statements"
-        :key="i"
-        class="partydetails__statement"
-        :href="state.link"
-        target="_blank"
-        rel="noopener"
-      >{{state.title}}</a>
-    </div>
-
   </div>
 </template>
 
@@ -83,6 +82,9 @@ export default {
       this.score = p.score * 10;
       this.tallys = this.commitment.commits;
     },
+    getComplianceStr(commit) {
+      return commit.compliance.toLowerCase().replace(/\s/g, '');
+    },
   },
   watch: {
     overview: 'calculeScore',
@@ -103,41 +105,43 @@ export default {
     h2 {
       font-size: 24px;
       font-weight: 600;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+      margin-bottom: 18px;
     }
   }
   &__commit {
-    margin-bottom: 10px;
-    &-title {
+    margin-bottom: 30px;
+    &-head {
       margin-bottom: 2px;
+      display: flex;
+      align-items: flex-start;
+    }
+    &-title {
+      padding-left: 10px;
+      line-height: 1.36;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+    }
+    &-compliance {
+      margin-top: -7px;
+      width: 70px;
+      transform: rotate(-9deg);
     }
     &-meta {
+      margin-top: 12px;
       font-size: 12px;
       display: flex;
     }
     &-link {
-      text-decoration: underline;
       font-weight: 600;
+      background: black;
+      padding: 2px 8px;
     }
-  }
-
-  &__statements {
-    margin-bottom: 24px;
-    h2 {
-      font-size: 24px;
-      font-weight: 600;
-    }
-  }
-  &__statement {
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.0909090909;
-    margin-bottom: 10px;
   }
 
   &__chart {
     text-align: center;
     margin: 20px 0;
+    width: 100%;
     max-width: 100%;
     position: relative;
     &-center {
@@ -148,18 +152,19 @@ export default {
       top: calc(50% - 27px);
       text-align: center;
     }
+    &-legend {
+      text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+    }
   }
 }
 
 @media screen and (min-width: 480px) {
   .partydetails {
-    &__commits h2,
-    &__statements h2 {
-      margin-bottom: 16px;
+    &__commits h2 {
+      margin-bottom: 32px;
     }
-    &__commit,
-    &__statement {
-      margin-bottom: 20px;
+    &__commit {
+      margin-bottom: 60px;
     }
   }
 }
@@ -169,11 +174,6 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
 
-    &__commits,
-    &__statements {
-      padding-right: 20px;
-      flex: 0 0 calc(50% - 20px);
-    }
     &__chart {
       flex: 1 0 100%;
     }
@@ -185,8 +185,10 @@ export default {
     margin-top: 60px;
     flex-wrap: nowrap;
 
-    &__commits,
-    &__statements,
+    &__commits {
+      flex: 0 0 calc(66% - 20px);
+    }
+
     &__chart {
       flex: 0 0 calc(33% - 20px);
       max-width: calc(33% - 20px);

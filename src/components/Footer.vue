@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="footer__wrap" :style="{backgroundColor: backColor}">
+    <div class="footer__wrap">
       <router-link :to="{name: 'about'}">Acerca de</router-link>
       <router-link :to="{name: 'methodology'}">Metodología</router-link>
       <a href="">Contacto</a>
@@ -12,35 +12,24 @@
 </template>
 
 <script>
-// import { mapGetters } from 'vuex';
-
 export default {
   name: 'Footer',
-  computed: {
-    // ...mapGetters(['party']),
-    backColor() {
-      return 'transparent';
-      /*
-      return this.party && this.party.color
-        ? this.party.color
-        : 'black';
-      */
-    },
-  },
 };
 </script>
 
 <style lang="scss">
 .footer {
-  /*position: fixed;*/
   bottom: 0;
   left: 0;
   width: 100%;
+  background: black;
+  overflow: hidden;
+  position: relative;
 
   &__wrap {
     display: block;
     max-width: 320px;
-    margin: 0 auto;
+    margin: 12px auto 0;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
@@ -51,8 +40,8 @@ export default {
   &__tenant {
     display: block;
     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 20px;
     img {
       width: 200px;
     }
