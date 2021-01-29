@@ -15,7 +15,12 @@
 </template>
 
 <script>
+import PageMixin from '@/views/PageMixin';
+
 export default {
   name: 'About',
+  mixins: [
+    PageMixin,
+  ],
 };
 </script>
