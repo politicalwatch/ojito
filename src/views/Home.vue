@@ -48,6 +48,9 @@ export default {
   computed: {
     ...mapGetters(['parties', 'topics']),
   },
+  beforeCreate() {
+    this.$store.dispatch('getParties');
+  },
   created() {
     const body = document.getElementsByTagName('body')[0];
     body.style.backgroundColor = '#000';

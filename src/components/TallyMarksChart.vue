@@ -2,7 +2,7 @@
   <div class="tallymarks">
     <div v-for="(topic, i) in datum" :key="i" class="tallymarks__group">
       <div
-        v-for="(mark, j) in Array(topic.total)"
+        v-for="(mark, j) in Array(topic.length)"
         :key="j"
         class="tallymarks__mark"
         :style="{backgroundColor: color(topic, j)}"

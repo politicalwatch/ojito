@@ -22,9 +22,6 @@ export default {
   computed: {
     ...mapGetters(['party']),
   },
-  created() {
-    this.$store.dispatch('getParties');
-  },
 };
 </script>
 

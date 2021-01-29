@@ -10,7 +10,7 @@
     </router-link>
 
     <div class="party__head">
-      <h1 class="party__name">{{party.shortName}}</h1>
+      <h1 class="party__name">{{party.shortname}}</h1>
       <p class="party__hint">Selecciona el compromiso para ver el detalle</p>
     </div>
 
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-    <PartyDetails :commitment="commitment"></PartyDetails>
+    <PartyDetails :commitment="commitment" :overview="party.overview"></PartyDetails>
 
   </div>
 </template>
@@ -47,22 +47,12 @@ export default {
   computed: {
     ...mapGetters(['parties', 'topics', 'party']),
   },
-  created() {
-    if (!this.party.id) {
-      // Load party if it's not loaded yet
-      const party = this.parties
-        .find((p) => p.shortName === this.$route.params.party);
-      this.$store.dispatch('setParty', party);
+  mounted() {
+    if (!this.parties.length) {
+      this.$store.dispatch('getParties');
+    } else {
+      this.setParty();
     }
-
-    // Set initial active tab
-    this.setCommitment(this.party.commitments[0]);
-
-    // Change body background
-    const body = document.getElementsByTagName('body')[0];
-    body.style.backgroundColor = this.party.color;
-    body.style.backgroundImage = `url(${this.party.background})`;
-
     // Capture ESC key
     window.addEventListener('keyup', this.escapeKeyPress);
   },
@@ -79,6 +69,22 @@ export default {
         window.location.href = '/';
       }
     },
+    setParty() {
+      // Load party
+      const party = this.parties
+        .find((p) => p.shortname === this.$route.params.party);
+      // Store party
+      this.$store.dispatch('setParty', party);
+      // Set active tab
+      this.setCommitment(party.commitments[0]);
+      // Change body background
+      const body = document.getElementsByTagName('body')[0];
+      body.style.backgroundColor = party.color;
+      body.style.backgroundImage = `url(${party.background})`;
+    },
+  },
+  watch: {
+    parties: 'setParty',
   },
   beforeUnmount() {
     this.$store.dispatch('setParty', {});
@@ -127,6 +133,7 @@ export default {
     border-bottom: 1px solid white;
     padding: 0 20px 4px;
     cursor: pointer;
+    white-space: pre;
 
     &:first-child {
       padding-left: 0;

@@ -1,21 +1,21 @@
 <template>
   <div class="party-chip" @click="goToParty">
     <div class="party-chip__name">
-      {{party.shortName}}
+      {{party.shortname}}
     </div>
     <div class="party-chip__values">
-      <TallyMarksChart :datum="partyOverview" :color="tallyMarksColor"></TallyMarksChart>
+      <!-- <TallyMarksChart :datum="partyOverview" :color="tallyMarksColor"></TallyMarksChart> -->
     </div>
   </div>
 </template>
 
 <script>
-import TallyMarksChart from '@/components/TallyMarksChart.vue';
+// import TallyMarksChart from '@/components/TallyMarksChart.vue';
 
 export default {
   name: 'PartyChip',
   components: {
-    TallyMarksChart,
+    // TallyMarksChart,
   },
   props: {
     party: {
@@ -35,7 +35,7 @@ export default {
       this.$router.push({
         name: 'party',
         params: {
-          party: this.party.shortName,
+          party: this.party.shortname,
         },
       });
     },

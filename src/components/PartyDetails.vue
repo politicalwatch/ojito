@@ -2,14 +2,15 @@
   <div class="partydetails">
 
     <div class="partydetails__chart">
-      <PartyChart :valuePercent="percent"></PartyChart>
+      <PartyChart :valuePercent="score"></PartyChart>
       <p class="partydetails__chart-legend">
         Lorem ipsum dolor sit amet
       </p>
       <div class="partydetails__chart-center">
         <TallyMarksChart
-          :color="tallyMarksColor"
-          :datum="[datum]"
+          v-if="tallys.length"
+          :color="() => 'white'"
+          :datum="[tallys]"
         ></TallyMarksChart>
       </div>
     </div>
@@ -24,12 +25,6 @@
         <div class="partydetails__commit">
           <h3 class="partydetails__commit-title">{{commit.title}}</h3>
           <span class="partydetails__commit-meta">
-            <time class="partydetails__commit-date" :datetime="commit.date">
-              {{commit.date}}
-            </time>
-            <div class="partydetails__commit-chart">
-              <MiniChart :total="commit.total" :acc="commit.acc"></MiniChart>
-            </div>
             <a class="partydetails__commit-link" :href="commit.link" target="_blank" rel="noopener">
               Descargar PDF
             </a>
@@ -55,15 +50,20 @@
 
 <script>
 import PartyChart from '@/components/PartyChart.vue';
-import MiniChart from '@/components/MiniChart.vue';
 import TallyMarksChart from '@/components/TallyMarksChart.vue';
 
 export default {
   name: 'PartyDetails',
   components: {
     PartyChart,
-    MiniChart,
     TallyMarksChart,
+  },
+  data() {
+    return {
+      score: 0,
+      total: 10,
+      tallys: [],
+    };
   },
   props: {
     commitment: {
@@ -71,27 +71,22 @@ export default {
       required: true,
       default: () => ({}),
     },
-  },
-  computed: {
-    datum() {
-      if (!this.commitment || !this.commitment.commits) {
-        return { acc: 0, total: 0 };
-      }
-      return this.commitment.commits.reduce((acum, o) => ({
-        acc: acum.acc + o.acc,
-        total: acum.total + o.total,
-      }), { acc: 0, total: 0 });
-    },
-    percent() {
-      return !this.datum || this.datum.total < 1
-        ? 0
-        : (this.datum.acc / this.datum.total) * 100;
+    overview: {
+      type: Object,
+      required: true,
+      default: () => ({}),
     },
   },
   methods: {
-    tallyMarksColor(topic, i) {
-      return (i < this.datum.acc) ? 'black' : 'white';
+    calculeScore() {
+      const p = this.overview.find((topic) => topic.id === this.commitment.id);
+      this.score = p.score * 10;
+      this.tallys = this.commitment.commits;
     },
+  },
+  watch: {
+    overview: 'calculeScore',
+    commitment: 'calculeScore',
   },
 };
 </script>
@@ -101,6 +96,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
+  align-items: flex-start;
 
   &__commits {
     margin-bottom: 24px;
@@ -117,12 +113,6 @@ export default {
     &-meta {
       font-size: 12px;
       display: flex;
-    }
-    &-date {
-      margin-right: 10px;
-    }
-    &-chart {
-      margin-right: 10px;
     }
     &-link {
       text-decoration: underline;
