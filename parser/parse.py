@@ -14,7 +14,7 @@ PARTIES = {
         'ERC': {'name': 'Esquerra Republicana de Catalunya', 'color': '#fbf651'},
         'EH BILDU': {'name': 'EH BILDU', 'color': '#3aaa35'},
         'Más País': {'name': 'Más País', 'color': '#0fddc4'},
-        'Junts': {'name': 'Junts per Catalunya', 'color': '#e73452'},
+        'Junts': {'name': 'Junts per Catalunya', 'color': '#5DC1B9'},
         'CUP': {'name': "Candidatura d'Unitat Popular", 'color': '#ffed00'},
         'Compromís': {'name': 'Compromís', 'color': '#f60'},
         'PNV': {'name': 'Partido Nacionalista Vasco', 'color': '#008000'},

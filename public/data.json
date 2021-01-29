@@ -33,27 +33,27 @@
             "overview": [
                 {
                     "id": "pobreza-infantil",
-                    "score": 7
+                    "score": 0
                 },
                 {
                     "id": "infancia-migrante",
-                    "score": 4.2
+                    "score": 0
                 },
                 {
                     "id": "lgtbiq",
-                    "score": 4.1
+                    "score": 0
                 },
                 {
                     "id": "desempleo-juvenil",
-                    "score": 6.7
+                    "score": 0
                 },
                 {
                     "id": "cambio-climatico",
-                    "score": 4.52
+                    "score": 0
                 },
                 {
                     "id": "migraciones",
-                    "score": 8.3
+                    "score": 0
                 }
             ],
             "commitments": [
@@ -61,6 +61,25 @@
                     "id": "pobreza-infantil",
                     "commits": [
                         {
+                            "title": "Se llevará al Parlamento la Ley para la Protección Integral de la Infancia y la Adolescencia frente a todas las formas de violencia",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1giG6EAhlqA3_IfgcO_mu8Hdaaw76OtbK/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
                             "title": "Impulsaremos ayudas para comedor y material escolar para combatir la pobreza infantil.",
                             "compliance": "PARCIALMENTE CUMPLIDO",
                             "pdf": "https://drive.google.com/file/d/16EWGf1MM7dMXhorYpRw0key2cSjovgLJ/view?usp=sharing",
@@ -225,6 +244,63 @@
                                 {
                                     "title": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
                                     "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos ayudas para comedor y material escolar para combatir la pobreza infantil.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/16EWGf1MM7dMXhorYpRw0key2cSjovgLJ/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Adoptaremos políticas públicas orientadas a mejorar el acceso y la permanencia en la educación y en el empleo de la población gitana",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1yAldeN5g2_cD3FWLNqY9gCA8w6hPiaAA/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Protección al 100% de las familias vulnerables en situación de pobreza energética.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1PCh3kdoSDuWokUkahj_2BPzfOWXEYfJA/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Real Decreto-ley 37/2020, de 22 de diciembre, de medidas urgentes para hacer frente a las situaciones de vulnerabilidad social y económica en el ámbito de la vivienda y en materia de transportes.",
+                                    "link": "BOE.es - Documento BOE-A-2020-16824"
                                 },
                                 {
                                     "title": "",
@@ -688,6 +764,25 @@
                 {
                     "id": "cambio-climatico",
                     "commits": [
+                        {
+                            "title": "Se llevará al Parlamento la Ley para la Protección Integral de la Infancia y la Adolescencia frente a todas las formas de violencia",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1giG6EAhlqA3_IfgcO_mu8Hdaaw76OtbK/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
                         {
                             "title": "Impulsaremos ayudas para comedor y material escolar para combatir la pobreza infantil.",
                             "compliance": "PARCIALMENTE CUMPLIDO",
@@ -9735,7 +9830,7 @@
         {
             "name": "Junts per Catalunya",
             "shortname": "Junts",
-            "color": "#e73452",
+            "color": "#5DC1B9",
             "overview": [
                 {
                     "id": "pobreza-infantil",
