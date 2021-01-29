@@ -5,6 +5,9 @@
       <router-link :to="{name: 'methodology'}">Metodología</router-link>
       <a href="">Contacto</a>
     </div>
+    <a href="https://politicalwatch.es/" class="footer__tenant">
+      <img src="img/politicalwatch.svg" alt="PoliticalWatch">
+    </a>
   </div>
 </template>
 
@@ -43,6 +46,16 @@ export default {
     justify-content: space-between;
     padding: 4px 14px;
     opacity: 0.9;
+  }
+
+  &__tenant {
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    img {
+      width: 200px;
+    }
   }
 }
 </style>
