@@ -6,7 +6,7 @@
       <a href="">Contacto</a>
     </div>
     <a href="https://politicalwatch.es/" class="footer__tenant">
-      <img src="img/politicalwatch.svg" alt="PoliticalWatch">
+      <img src="/img/politicalwatch.svg" alt="PoliticalWatch">
     </a>
   </div>
 </template>

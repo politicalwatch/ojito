@@ -1,6 +1,10 @@
 <template>
   <div class="page page--methodology">
 
+    <router-link :to="{name: 'home'}" class="page__logo">
+      <img src="/img/logo-sm.svg" alt="Ojito">
+    </router-link>
+
     <router-link :to="{name: 'home'}" class="page__close">
       <img src="/img/icons/close.svg" alt="Cerrar">
     </router-link>
