@@ -41,7 +41,7 @@ with open('commitments.csv') as csv_file:
 
 def get_commits_by_topic(party='', topic=''):
     filtered_commits = list(filter(
-        lambda x: x['Temática'] == 'Pobreza infantil' and x['Partido'] == 'Gobierno',
+        lambda x: x['Temática'] == topic and x['Partido'] == party,
         commitments))
     return [
             {
@@ -58,7 +58,7 @@ def get_commits_by_topic(party='', topic=''):
 
 def get_commits(party='', topics=''):
     return [
-            {'id': slugify(topic), 'commits': get_commits_by_topic(party=party, topic=slugify(topic))}
+            {'id': slugify(topic), 'commits': get_commits_by_topic(party=party, topic=topic)}
             for topic in topics
             ]
 
