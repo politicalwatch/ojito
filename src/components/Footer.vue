@@ -22,7 +22,7 @@ export default {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: black;
+  background: rgba(0,0,0,0.6);
   overflow: hidden;
   position: relative;
 
