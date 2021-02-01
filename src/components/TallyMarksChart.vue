@@ -45,7 +45,7 @@ $mark-width: 2px;
     display: inline-block;
     height: 100%;
     min-height: 1px;
-    margin-right: 4px;
+    margin-right: 6px;
     &:last-child {
       margin-right: 0;
     }
@@ -62,6 +62,11 @@ $mark-width: 2px;
     &:nth-child(5n) {
       transform: translate(-10px, 0) rotate(50deg) scaleY(1.3);
     }
+    /*
+    &:nth-child(6n) {
+      margin-left: 2px;
+    }
+    */
     &:last-child {
       margin-right: 0;
     }

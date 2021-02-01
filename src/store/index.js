@@ -1,6 +1,14 @@
 import { createStore } from 'vuex';
 import axios from 'axios';
 
+const sortPartiesByGeneralCompliance = (a, b) => {
+  const partyTopicA = a.overview
+    .reduce((acc, obj) => acc + obj.score, 0) / a.overview.length;
+  const partyTopicB = b.overview
+    .reduce((acc, obj) => acc + obj.score, 0) / b.overview.length;
+  return partyTopicB - partyTopicA;
+};
+
 export default createStore({
   state: {
     topics: [],
@@ -12,7 +20,8 @@ export default createStore({
      * Update topics
      */
     updateTopics(state, data) {
-      state.topics = data.topics;
+      state.topics = data.topics
+        .sort((a, b) => a.name.localeCompare(b.name));
     },
     /**
      * Update parties data
@@ -22,17 +31,36 @@ export default createStore({
       data.topics.forEach((topic) => topics.set(topic.id, topic.name));
 
       // Sort commitments alphabetically before assigning
-      state.parties = data.parties.map((party) => ({
-        ...party,
-        commitments: party.commitments
-          .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
-      }));
+      state.parties = data.parties
+        .map((party) => ({
+          ...party,
+          commitments: party.commitments
+            .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
+        }))
+        .sort(sortPartiesByGeneralCompliance);
     },
     /**
      * Update party data
      */
     updateParty(state, data) {
       state.party = data;
+    },
+    /**
+     * Sort parties list
+     */
+    sortParties(state, topic) {
+      if (topic) {
+        state.parties = state.parties.sort((a, b) => {
+          const partyTopicA = a.overview.find((o) => o.id === topic);
+          const partyTopicB = b.overview.find((o) => o.id === topic);
+          if (partyTopicA === undefined && partyTopicB === undefined) return 0;
+          if (partyTopicA === undefined) return -1;
+          if (partyTopicB === undefined) return 1;
+          return partyTopicB.score - partyTopicA.score;
+        });
+      } else {
+        state.parties = state.parties.sort(sortPartiesByGeneralCompliance);
+      }
     },
   },
   actions: {
@@ -57,6 +85,12 @@ export default createStore({
      */
     setParty(commit, party) {
       this.commit('updateParty', party);
+    },
+    /**
+     * Sort party list by topic score
+     */
+    sortParties(commit, topicName) {
+      this.commit('sortParties', topicName);
     },
   },
   getters: {

@@ -12,8 +12,8 @@
     </div>
 
     <div class="topic-filter">
-      <select name="filter" id="filter">
-        <option selected disabled>Selecciona una temática</option>
+      <select name="filter" id="filter" v-model="activeFilter">
+        <option selected value="">Selecciona una temática</option>
         <option
           v-for="(topic, i) in topics"
           :key="i"
@@ -23,11 +23,14 @@
     </div>
 
     <div class="parties-list">
-      <PartyChip
-        v-for="(party, i) in parties"
-        :key="i"
-        :party="party"
-      ></PartyChip>
+      <transition-group name="flip-list" tag="div">
+        <PartyChip
+          v-for="party in parties"
+          :key="party"
+          :party="party"
+          :filter="activeFilter"
+        ></PartyChip>
+      </transition-group>
     </div>
 
   </div>
@@ -42,6 +45,11 @@ export default {
   components: {
     PartyChip,
   },
+  data() {
+    return {
+      activeFilter: '',
+    };
+  },
   computed: {
     ...mapGetters(['parties', 'topics']),
   },
@@ -51,6 +59,11 @@ export default {
   created() {
     const body = document.getElementsByTagName('body')[0];
     body.style.background = 'transparent';
+  },
+  watch: {
+    activeFilter(filter) {
+      this.$store.dispatch('sortParties', filter);
+    },
   },
 };
 </script>
@@ -132,5 +145,9 @@ export default {
   max-width: 360px;
   margin: 0 auto;
   padding: 0 10px 30px;
+}
+
+.flip-list-move {
+  transition: transform 0.8s ease;
 }
 </style>

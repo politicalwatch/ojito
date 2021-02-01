@@ -4,18 +4,21 @@
       {{party.shortname}}
     </div>
     <div class="party-chip__values">
-      <!-- <TallyMarksChart :datum="partyOverview" :color="tallyMarksColor"></TallyMarksChart> -->
+      <TallyMarksChart
+        :datum="tallys"
+        :color="tallyMarksColor"
+      ></TallyMarksChart>
     </div>
   </div>
 </template>
 
 <script>
-// import TallyMarksChart from '@/components/TallyMarksChart.vue';
+import TallyMarksChart from '@/components/TallyMarksChart.vue';
 
 export default {
   name: 'PartyChip',
   components: {
-    // TallyMarksChart,
+    TallyMarksChart,
   },
   props: {
     party: {
@@ -23,10 +26,47 @@ export default {
       required: true,
       default: () => ({}),
     },
+    filter: {
+      type: String,
+      default: '',
+    },
   },
   computed: {
     partyOverview() {
       return this.party.overview; // TODO: Improve
+    },
+    tallys() {
+      if (!this.filter) {
+        const score = this.party.overview.length > 0
+          ? Math.round(this.party.overview
+            .reduce((acc, obj) => acc + obj.score, 0) / this.party.overview.length)
+          : 0;
+        return [{
+          name: 'Cumplido',
+          value: score,
+        }, {
+          name: 'No cumplido',
+          value: 10 - score,
+        }];
+      }
+
+      const commitment = this.party.commitments.find((c) => c.id === this.filter);
+      if (commitment === undefined) return [];
+
+      const tallysCount = commitment.commits.reduce((acc, commit) => {
+        acc[commit.compliance] += 1;
+        return acc;
+      }, {
+        CUMPLIDO: 0,
+        'PARCIALMENTE CUMPLIDO': 0,
+        'NO CUMPLIDO': 0,
+      });
+      return Object.keys(tallysCount)
+        .filter((key) => key !== '')
+        .map((key) => ({
+          name: key.charAt(0).toUpperCase() + key.slice(1).toLowerCase(),
+          value: tallysCount[key],
+        }));
     },
   },
   methods: {
@@ -39,14 +79,10 @@ export default {
         },
       });
     },
-    tallyMarksColor(topic) {
-      if (topic.acc / topic.total > 0.7) {
-        return 'green';
-      }
-      if (topic.acc / topic.total > 0.4) {
-        return 'yellow';
-      }
-      return 'red';
+    tallyMarksColor(tally) {
+      if (tally.name === 'Cumplido') return 'green';
+      if (tally.name === 'No cumplido') return 'red';
+      return 'orange';
     },
   },
 };
