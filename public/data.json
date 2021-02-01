@@ -29,31 +29,31 @@
         {
             "name": "Gobierno",
             "shortname": "Gobierno",
-            "color": "#13143F",
+            "color": "#967dd4",
             "overview": [
                 {
                     "id": "pobreza-infantil",
-                    "score": 0
+                    "score": 3.8
                 },
                 {
                     "id": "infancia-migrante",
-                    "score": 0
+                    "score": 4.1
                 },
                 {
                     "id": "lgtbiq",
-                    "score": 0
+                    "score": 6.6
                 },
                 {
                     "id": "desempleo-juvenil",
-                    "score": 0
+                    "score": 1.2
                 },
                 {
                     "id": "cambio-climatico",
-                    "score": 0
+                    "score": 5.4
                 },
                 {
                     "id": "migraciones",
-                    "score": 0
+                    "score": 8.2
                 }
             ],
             "commitments": [
@@ -275,19 +275,15 @@
                         {
                             "title": "Promoveremos una política europea de inmigración justa y solidaria a través de la articulación de vías legales y seguras, que respete los derechos humanos y garantice las libertades y principios de la UE para todas las personas. Para ello: 48  España promoverá la implementación del Pacto Global para las Migraciones (Acuerdos de Marrakech) y del Pacto Mundial sobre los Refugiados de la ONU, y dedicará una especial atención al desarrollo sostenible de los países de origen y tránsito para facilitar una inmigración legal y segura.  Se modificará el sistema nacional de acogida e inclusión de solicitantes de Protección Internacional, adaptándolo a la normativa europea y a la nueva realidad del país para hacerlo más eficiente y solidario.  Se dotará el Fondo estatal de integración como instrumento esencial de colaboración del Estado con las comunidades autónomas y los municipios en este ámbito.  Se elaborará una nueva Ley de Asilo que se adapte a los nuevos retos de la movilidad global y que tenga en cuenta las nuevas realidades sociales. España seguirá comprometida con la atención de aquellos migrantes que llegan a nuestro país en situaciones de alta vulnerabilidad, mejorando la coordinación de todos los actores involucrados en la atención humanitaria y en la identificación de vulnerabilidades, especialmente las mujeres víctimas de trata y los menores.",
                             "compliance": "NO CUMPLIDO",
-                            "pdf": "",
+                            "pdf": "eo",
                             "initiatives": [
                                 {
-                                    "title": "No hay actos",
-                                    "link": ""
+                                    "title": "Lorem ipsum dolor sit amet política europea de inmigración justa y solidaria a través de la articulación de vías legales y seguras, que respete los derechos humanos y garantice",
+                                    "link": "https://github.com/politicalwatch/ojito/issues/18"
                                 },
                                 {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
+                                    "title": "Consectetur adisciplinit elit",
+                                    "link": "https://github.com/politicalwatch/ojito/issues/18"
                                 }
                             ]
                         },
@@ -295,20 +291,7 @@
                             "title": "Aprobaremos una Ley Integral para la Igualdad de Trato y la no Discriminación.",
                             "compliance": "NO CUMPLIDO",
                             "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "No hay actos",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
+                            "initiatives": []
                         },
                         {
                             "title": "Impulsaremos y fortaleceremos un marco integral legislativo y político que erradique los \ndiscursos y los delitos de odio para garantizar la protección de los derechos y libertades \nde todas las personas, con independencia de sus circunstancias personales o sociales, \ny con especial atención sobre grupos de especial protección. Garantizaremos el acceso \na la justicia y la reparación de los derechos de las víctimas, así como la aplicación \nefectiva de la Ley del Estatuto de la Víctima, e impulsaremos la formación de todos los \noperadores jurídicos, administrativos y sociales que intervienen en la respuesta ante \nestas vulneraciones de derechos humanos.",

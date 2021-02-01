@@ -27,19 +27,41 @@
             <img
               class="partydetails__commit-compliance"
               :src="`/img/compliance/${getComplianceStr(commit)}.svg`"
+              :title="commit.compliance"
               :alt="getComplianceStr(commit)">
-            <h3 class="partydetails__commit-title">
-              {{commit.title}}
-              <span class="partydetails__commit-meta">
+            <div class="partydetails__commit-title">
+              <h3>{{commit.title}}</h3>
+              <div class="partydetails__commit-meta">
+                <span
+                  v-if="!commit.initiatives.length"
+                  class="partydetails__commit-link partydetails__commit-link--empty">
+                  Sin actividad parlamentaria relevante
+                </span>
+                <span
+                  v-if="commit.initiatives.length"
+                  @click="toggleCommit(i)"
+                  class="partydetails__commit-link partydetails__commit-link--initiative"
+                  :class="{'is-expanded': isExpanded(i)}">
+                  Ver iniciativas
+                </span>
                 <a
+                  v-if="commit.initiatives.length && commit.pdf"
                   class="partydetails__commit-link"
-                  :href="commit.link"
+                  :href="commit.pdf"
                   target="_blank"
                   rel="noopener">
-                  Descargar PDF
+                  Justificación del veredicto
                 </a>
-              </span>
-            </h3>
+              </div>
+              <div class="partydetails__commit-initiatives" v-show="isExpanded(i)">
+                <h3>Iniciativas</h3>
+                <ul>
+                  <li v-for="(init, j) in commit.initiatives" :key="j">
+                    <a :href="init.link">{{init.title}}</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -62,6 +84,7 @@ export default {
       score: 0,
       total: 10,
       tallys: [],
+      expandedCommits: [],
     };
   },
   props: {
@@ -77,18 +100,30 @@ export default {
     },
   },
   methods: {
-    calculeScore() {
+    resetCalculation() {
       const p = this.overview.find((topic) => topic.id === this.commitment.id);
       this.score = p.score * 10;
       this.tallys = this.commitment.commits;
+      this.expandedCommits = [];
     },
     getComplianceStr(commit) {
       return commit.compliance.toLowerCase().replace(/\s/g, '');
     },
+    isExpanded(idx) {
+      return this.expandedCommits.indexOf(idx) !== -1;
+    },
+    toggleCommit(idx) {
+      const expIdx = this.expandedCommits.indexOf(idx);
+      if (expIdx !== -1) {
+        this.expandedCommits.splice(expIdx, 1);
+      } else {
+        this.expandedCommits.push(idx);
+      }
+    },
   },
   watch: {
-    overview: 'calculeScore',
-    commitment: 'calculeScore',
+    overview: 'resetCalculation',
+    commitment: 'resetCalculation',
   },
 };
 </script>
@@ -118,8 +153,10 @@ export default {
     }
     &-title {
       padding-left: 10px;
-      line-height: 1.36;
-      text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+      h3 {
+        line-height: 1.36;
+        text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+      }
     }
     &-compliance {
       margin-top: -7px;
@@ -130,11 +167,72 @@ export default {
       margin-top: 12px;
       font-size: 12px;
       display: flex;
+      justify-content: space-between;
     }
     &-link {
       font-weight: 600;
       background: black;
       padding: 2px 8px;
+      margin-right: 22px;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      &--empty {
+        &:hover {
+          cursor: default;
+          text-decoration: none !important;
+        }
+      }
+      &--initiative {
+        padding-right: 20px;
+        &:after {
+          content: "";
+          position: absolute;
+          top: 7px;
+          right: 7px;
+          width: 6px;
+          height: 6px;
+          border: 2px solid white;
+          border-top: 0;
+          border-left: 0;
+          transform-origin: 5px 5px;
+          transform: rotate(45deg);
+          transition: transform 250ms ease-in-out;
+        }
+        &.is-expanded {
+          text-decoration: underline !important;
+          &:after {
+            transform: rotate(-135deg);
+          }
+        }
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &-initiatives {
+      padding-left: 20px;
+      h3 {
+        margin-top: 20px;
+      }
+      li {
+        list-style: disc;
+        margin-left: 20px;
+        line-height: 1.33;
+        font-size: 14px;
+      }
+      a {
+        display: block;
+        margin-bottom: 9px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
@@ -176,6 +274,13 @@ export default {
 
     &__chart {
       flex: 1 0 100%;
+    }
+    &__commit {
+      &-meta {
+        justify-content: flex-start;
+      }
+      &-link {
+      }
     }
   }
 }

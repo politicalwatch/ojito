@@ -141,6 +141,9 @@ export default {
     > div {
       text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
     }
+    &:hover > div {
+      text-decoration: underline;
+    }
 
     &:first-child {
       // padding-left: 0;

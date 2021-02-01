@@ -105,7 +105,7 @@ export default {
   z-index: 1;
   select {
     display: block;
-    width: calc(100% - 50px);
+    width: calc(100% - 20px);
     color: white;
     background: transparent;
     padding: 10px;
@@ -113,7 +113,7 @@ export default {
     cursor: pointer;
     border: 0;
     border-bottom: 2px solid white;
-    margin: 0 25px;
+    margin: 0 auto;
     &:focus {
       outline: 0;
       border: 0;

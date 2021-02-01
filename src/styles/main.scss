@@ -32,7 +32,7 @@ a {
 }
 
 .page {
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   box-sizing: border-box;
   min-height: calc(100% - 30px);
@@ -74,15 +74,9 @@ a {
     max-width: 700px;
     margin: 0 auto;
     h1 {
-      margin-top: 20px;
+      margin-top: 34px;
       margin-bottom: 12px;
     }
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .page {
-    padding: 20px;
   }
 }
 
