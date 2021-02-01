@@ -1,11 +1,14 @@
 <template>
   <div class="tallymarks">
-    <div v-for="(topic, i) in datum" :key="i" class="tallymarks__group">
+    <div
+      v-for="(d, i) in datum"
+      :key="i" class="tallymarks__group"
+      v-show="d.value > 0">
       <div
-        v-for="(mark, j) in Array(topic.length)"
+        v-for="(mark, j) in Array(d.value)"
         :key="j"
         class="tallymarks__mark"
-        :style="{backgroundColor: color(topic, j)}"
+        :style="{backgroundColor: color(d, j)}"
       ></div>
     </div>
   </div>

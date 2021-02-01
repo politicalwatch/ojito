@@ -4,13 +4,17 @@
     <div class="partydetails__chart">
       <PartyChart :valuePercent="score"></PartyChart>
       <p class="partydetails__chart-legend">
-        Lorem ipsum dolor sit amet
+        <span v-for="(t, i) in tallys" :key="i">
+          <span v-if="t.value === 1">{{t.value}} {{t.name}}</span>
+          <span v-if="t.value > 1">{{t.value}} {{t.name}}s</span>
+          <br v-if="t.value > 0">
+        </span>
       </p>
       <div class="partydetails__chart-center">
         <TallyMarksChart
           v-if="tallys.length"
-          :color="() => 'white'"
-          :datum="[tallys]"
+          :color="tallysColor"
+          :datum="tallys"
         ></TallyMarksChart>
       </div>
     </div>
@@ -103,8 +107,27 @@ export default {
     resetCalculation() {
       const p = this.overview.find((topic) => topic.id === this.commitment.id);
       this.score = p.score * 10;
-      this.tallys = this.commitment.commits;
+      this.getTallys();
       this.expandedCommits = [];
+    },
+    getTallys() {
+      const tallysCount = this.commitment.commits.reduce((acc, commit) => {
+        acc[commit.compliance] += 1;
+        return acc;
+      }, {
+        CUMPLIDO: 0,
+        'PARCIALMENTE CUMPLIDO': 0,
+        'NO CUMPLIDO': 0,
+      });
+      this.tallys = Object.keys(tallysCount).map((key) => ({
+        name: key.charAt(0).toUpperCase() + key.slice(1).toLowerCase(),
+        value: tallysCount[key],
+      }));
+    },
+    tallysColor(tally) {
+      if (tally.name === 'Cumplido') return 'green';
+      if (tally.name === 'No cumplido') return 'red';
+      return 'orange';
     },
     getComplianceStr(commit) {
       return commit.compliance.toLowerCase().replace(/\s/g, '');
@@ -247,12 +270,18 @@ export default {
       width: 100%;
       height: 14px;
       left: 0;
-      top: calc(50% - 27px);
+      top: 121px;
       text-align: center;
     }
     &-legend {
       text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
     }
+  }
+
+  .tallymarks {
+    display: inline-block;
+    background: black;
+    padding: 7px;
   }
 }
 
