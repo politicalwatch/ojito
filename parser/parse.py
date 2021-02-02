@@ -80,7 +80,7 @@ with open('overview.csv') as csv_file:
             'overview': [
                 {
                     'id': slugify(key),
-                    'score': int(row[key])
+                    'score': row[key]
                     }
                 for key in keys
                 ],
