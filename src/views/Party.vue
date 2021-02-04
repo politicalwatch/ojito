@@ -10,7 +10,7 @@
     </router-link>
 
     <div class="party__head">
-      <h1 class="party__name">{{party.shortname}}</h1>
+      <h1 class="party__name">{{party.name}}</h1>
       <p class="party__hint">Selecciona el compromiso para ver el detalle</p>
     </div>
 
