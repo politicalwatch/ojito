@@ -112,7 +112,7 @@ export default {
     },
     getTallys() {
       const tallysCount = this.commitment.commits.reduce((acc, commit) => {
-        acc[commit.compliance] += 1;
+        acc[commit.compliance.toUpperCase()] += 1;
         return acc;
       }, {
         CUMPLIDO: 0,
