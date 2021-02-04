@@ -9,6 +9,8 @@ const sortPartiesByGeneralCompliance = (a, b) => {
   return partyTopicB - partyTopicA;
 };
 
+const parseScore = (num) => (!Number.isNaN(num) && !Number.isNaN(parseFloat(num)) ? +num.replace(',', '.') : 0);
+
 export default createStore({
   state: {
     topics: [],
@@ -34,7 +36,17 @@ export default createStore({
       state.parties = data.parties
         .map((party) => ({
           ...party,
+          overview: party.overview
+            .map((topic) => ({ ...topic, score: parseScore(topic.score) })),
           commitments: party.commitments
+            .map((commitment) => ({
+              ...commitment,
+              commits: commitment.commits
+                .map((commit) => ({
+                  ...commit,
+                  initiatives: commit.initiatives.filter((i) => i.link.length > 0),
+                })),
+            }))
             .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
         }))
         .sort(sortPartiesByGeneralCompliance);
