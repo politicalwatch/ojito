@@ -23,6 +23,11 @@ const routes = [
     component: () => import('../views/Methodology.vue'),
   },
   {
+    path: '/informe-covid',
+    name: 'covid-report',
+    component: () => import('../views/CovidReport.vue'),
+  },
+  {
     path: '/contacto',
     name: 'contact',
     component: () => import('../views/Contact.vue'),

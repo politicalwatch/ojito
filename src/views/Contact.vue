@@ -25,7 +25,7 @@
 import PageMixin from '@/views/PageMixin';
 
 export default {
-  name: 'Contacto',
+  name: 'Contact',
   mixins: [
     PageMixin,
   ],
