@@ -3,7 +3,7 @@
     <div class="footer__wrap">
       <router-link :to="{name: 'about'}">Acerca de</router-link>
       <router-link :to="{name: 'methodology'}">Metodología</router-link>
-      <a href="">Contacto</a>
+      <router-link :to="{name: 'contact'}">Contacto</router-link>
     </div>
     <a href="https://politicalwatch.es/" class="footer__tenant">
       <img src="/img/politicalwatch.svg" alt="PoliticalWatch">

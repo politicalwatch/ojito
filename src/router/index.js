@@ -22,6 +22,11 @@ const routes = [
     name: 'methodology',
     component: () => import('../views/Methodology.vue'),
   },
+  {
+    path: '/contacto',
+    name: 'contact',
+    component: () => import('../views/Contact.vue'),
+  },
 ];
 
 const router = createRouter({
