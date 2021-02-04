@@ -54,7 +54,7 @@
                   :href="commit.pdf"
                   target="_blank"
                   rel="noopener">
-                  Justificación del veredicto
+                  Ver análisis completo
                 </a>
               </div>
               <div class="partydetails__commit-initiatives" v-show="isExpanded(i)">
@@ -303,13 +303,6 @@ export default {
 
     &__chart {
       flex: 1 0 100%;
-    }
-    &__commit {
-      &-meta {
-        justify-content: flex-start;
-      }
-      &-link {
-      }
     }
   }
 }
