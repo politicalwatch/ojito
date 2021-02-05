@@ -39,7 +39,7 @@
                 <span
                   v-if="!commit.initiatives.length"
                   class="partydetails__commit-link partydetails__commit-link--empty">
-                  Sin actividad parlamentaria relevante
+                  ❌ Sin actividad parlamentaria relevante
                 </span>
                 <span
                   v-if="commit.initiatives.length"
@@ -207,7 +207,9 @@ export default {
       cursor: pointer;
       position: relative;
       overflow: hidden;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
       &--empty {
+        background: transparent;
         &:hover {
           cursor: default;
           text-decoration: none !important;
