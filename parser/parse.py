@@ -45,11 +45,11 @@ def get_commits_by_topic(party='', topic=''):
         commitments))
     return [
             {
-                'title': commit['Compromiso'],
-                'compliance': commit['Cumplimiento'],
-                'pdf': commit['PDFLink'],
+                'title': commit['Compromiso'].strip(),
+                'compliance': commit['Cumplimiento'].strip(),
+                'pdf': commit['PDFLink'].strip(),
                 'initiatives': [
-                    {'title': commit[f'Acto{i}Titulo'], 'link': commit[f'Acto{i}Link']}
+                    {'title': commit[f'Acto{i}Titulo'].strip(), 'link': commit[f'Acto{i}Link'].strip()}
                     for i in range(1, 4)
                     ]
                 }
@@ -80,7 +80,7 @@ with open('overview.csv') as csv_file:
             'overview': [
                 {
                     'id': slugify(key),
-                    'score': row[key]
+                    'score': row[key].strip()
                     }
                 for key in keys
                 ],
