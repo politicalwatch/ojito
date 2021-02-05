@@ -15,6 +15,24 @@
 <script>
 import TallyMarksChart from '@/components/TallyMarksChart.vue';
 
+const tallyParser = (compliance, obj) => {
+  const acc = { ...obj };
+  if (compliance.toUpperCase() === 'CUMPLIDO') {
+    acc.CUMPLIDO += 1;
+  } else if (compliance.toUpperCase() === 'PARCIALMENTE CUMPLIDO') {
+    acc['PARCIALMENTE CUMPLIDO'] += 1;
+  } else {
+    acc['NO CUMPLIDO'] += 1;
+  }
+  return acc;
+};
+
+const baseScore = {
+  CUMPLIDO: 0,
+  'PARCIALMENTE CUMPLIDO': 0,
+  'NO CUMPLIDO': 0,
+};
+
 export default {
   name: 'PartyChip',
   components: {
@@ -37,36 +55,33 @@ export default {
     },
     tallys() {
       if (!this.filter) {
-        const score = this.party.overview.length > 0
-          ? Math.round(this.party.overview
-            .reduce((acc, obj) => acc + obj.score, 0) / this.party.overview.length)
-          : 0;
-        return [{
-          name: 'Cumplido',
-          value: score,
-        }, {
-          name: 'No cumplido',
-          value: 10 - score,
-        }];
+        // Sum all tallymarks from all commitments.commits
+        const score2 = this.party.commitments
+          .reduce((acc, commitment) => {
+            const subs = commitment.commits
+              .reduce((bcc, commit) => tallyParser(commit.compliance, acc), baseScore);
+            return {
+              CUMPLIDO: acc.CUMPLIDO + subs.CUMPLIDO,
+              'PARCIALMENTE CUMPLIDO': acc['PARCIALMENTE CUMPLIDO'] + subs['PARCIALMENTE CUMPLIDO'],
+              'NO CUMPLIDO': acc['NO CUMPLIDO'] + subs['NO CUMPLIDO'],
+            };
+          }, baseScore);
+
+        const totalTallys = Object.keys(score2).reduce((acc, key) => acc + score2[key], 0);
+        const reduceFactor = totalTallys > 0 ? 20 / totalTallys : 0;
+        return Object.keys(score2).map((key) => ({
+          name: key.charAt(0).toUpperCase() + key.slice(1).toLowerCase(),
+          value: Math.round(score2[key] * reduceFactor),
+        }));
       }
 
+      // Get only the tallymarks from the current commitment
       const commitment = this.party.commitments.find((c) => c.id === this.filter);
       if (commitment === undefined) return [];
 
-      const tallysCount = commitment.commits.reduce((acc, commit) => {
-        if (commit.compliance.toUpperCase() === 'CUMPLIDO') {
-          acc.CUMPLIDO += 1;
-        } else if (commit.compliance.toUpperCase() === 'PARCIALMENTE CUMPLIDO') {
-          acc['PARCIALMENTE CUMPLIDO'] += 1;
-        } else {
-          acc['NO CUMPLIDO'] += 1;
-        }
-        return acc;
-      }, {
-        CUMPLIDO: 0,
-        'PARCIALMENTE CUMPLIDO': 0,
-        'NO CUMPLIDO': 0,
-      });
+      const tallysCount = commitment.commits
+        .reduce((acc, commit) => tallyParser(commit.compliance, acc), baseScore);
+
       return Object.keys(tallysCount)
         .filter((key) => key !== '')
         .map((key) => ({

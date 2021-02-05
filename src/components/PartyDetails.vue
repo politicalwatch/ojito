@@ -305,6 +305,7 @@ export default {
 
   &__score {
     margin-bottom: 6px;
+    font-size: 20px;
     font-weight: 600;
     text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
   }
