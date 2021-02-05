@@ -237,7 +237,7 @@
                     "id": "infancia-migrante",
                     "commits": [
                         {
-                            "title": "España seguirá comprometida con la atención de aquellos migrantes que llegan a nuestro país\nen situaciones de alta vulnerabilidad, mejorando la coordinación de todos los actores\ninvolucrados en la atención humanitaria y en la identificación de vulnerabilidades,\nespecialmente las mujeres víctimas de trata y los menores.",
+                            "title": "España seguirá comprometida con la atención de aquellos migrantes que llegan a nuestro país en situaciones de alta vulnerabilidad, mejorando la coordinación de todos los actores\ninvolucrados en la atención humanitaria y en la identificación de vulnerabilidades especialmente las mujeres víctimas de trata y los menores.",
                             "compliance": "CUMPLIDO",
                             "pdf": "https://drive.google.com/file/d/1W7LR0IXbKesEz0YyuR_pJOwbr26pEIhA/view?usp=sharing",
                             "initiatives": [
@@ -259,7 +259,84 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Se potenciará la educación afectivo-sexual dentro del sistema educativo, conforme a un enfoque de derechos, de igualdad y libertad.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1toZrEI-iw65E0duYjo1k82N6HVkyZ3op/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos la aprobación de un paquete de medidas en favor de la igualdad de trato, la no discriminación y la valoración positiva de la diversidad:\n- Aprobaremos una Ley Integral para la Igualdad de Trato y la no Discriminación.\n- Aprobaremos una Ley contra la Discriminación de las Personas LGBTI, incluyendo la prohibición a nivel nacional de las llamadas terapias de reversión\n- Una Ley trans que trabaje de forma efectiva para erradicar todas las formas de discriminación hacia las personas trans en todos los ámbitos\n- Combatiremos la discriminación de las personas LGBTI en el deporte.\n- Impulsaremos y fortaleceremos un marco integral legislativo y político que erradique los discursos y los delitos de odio para garantizar la protección de los derechos y libertades de todas las personas, con independencia de sus circunstancias personales o sociales, y con especial atención sobre grupos de especial protección. Garantizaremos el acceso a la justicia y la reparación de los derechos de las víctimas, así como la aplicación efectiva de la Ley del Estatuto de la Víctima, e impulsaremos la formación de todos los operadores jurídicos, administrativos y sociales que intervienen en la respuesta ante estas vulneraciones de derechos humanos.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1yj5F_d-XzlTEFunD-7MVjTPBtGAUKXWZ/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reconocimiento y protección de la diversidad familiar. Elaboraremos una Ley que responda y proteja a las diferentes estructuras familiares. En concreto, se protegerá las familias monomarentales y monoparentales (encabezadas en más de un 82% por mujeres), las familias numerosas, las de partos múltiples y las familias acogedoras, adecuando las ayudas y prestaciones a la situación de necesidad según tamaño, características y rentas familiares. De esta manera, garantizaremos la protección efectiva de las distintas realidades familiares elegidas con libertad, con medidas de apoyo a la adopción a familias LGTBI, reconocimiento de la filiación de las parejas de mujeres lesbianas y protección jurídica de las nuevas formas de convivencia estables sin ser pareja.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Propondremos la adopción comunitaria de medidas de igualdad de trato y contra todo tipo de discriminación (por orientación sexual, identidad de género, raza, religión, etc.) para que la UE siga siendo un referente en este ámbito. En esta misma línea, promoveremos la creación de un marco legal europeo que garantice los derechos de las personas LGTBI y un plan de lucha contra la discriminación intersex. Impulsaremos la inclusión y el reconocimiento de familias diversas y la erradicación de cualquier forma de patologización de las personas LGTBI, así como su acceso a la atención sanitaria en igualdad de condiciones.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -1040,7 +1117,7 @@
                     "id": "infancia-migrante",
                     "commits": [
                         {
-                            "title": "Impulsaremos la adopción de una Ley Orgánica para la Protección Integral\nde la Infancia y la Adolescencia frente a la Violencia, conforme al\nanteproyecto aprobado por el Consejo de Ministros, y continuaremos\nimpulsando la Alianza de País contra la Pobreza Infantil desde el Alto\nComisionado, para combatir la exclusión económica, educativa, sanitaria y \nsocioemocional a través de acciones trasversales, incluyendo el desarrollo del\nprograma VECA.",
+                            "title": "Impulsaremos la adopción de una Ley Orgánica para la Protección Integral de la Infancia y la Adolescencia frente a la Violencia, conforme al\nanteproyecto aprobado por el Consejo de Ministros, y continuaremos impulsando la Alianza de País contra la Pobreza Infantil desde el Alto\nComisionado, para combatir la exclusión económica, educativa, sanitaria y \nsocioemocional a través de acciones trasversales, incluyendo el desarrollo del\nprograma VECA.",
                             "compliance": "NO CUMPLIDO",
                             "pdf": "https://drive.google.com/file/d/1LUm9R4wVtsNQ6Z6VVqskS4XO51gT82sZ/view?usp=sharing",
                             "initiatives": [
@@ -1062,7 +1139,293 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Impulsar nuevas iniciativas que contribuyan a alcanzar la igualdad real y efectiva en el deporte, mediante la puesta en marcha de programas cuyo objetivo sea la plena inclusión e integración social y la lucha contra la violencia sobre las mujeres, la xenofobia, el racismo y la LGTBIfobia en el ámbito deportivo.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Trabajar en la creación de un Observatorio de la Igualdad en el Deporte que nos dé las pautas necesarias para generar un Plan de Igualdad que desarrolle políticas adecuadas y eficaces para seguir avanzando en esta área.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aprobar una Ley contra la discriminación por orientación sexual e identidad de género, que establezca medidas de carácter específico para luchar contra la discriminación por estos motivos en el ámbito de la sanidad, la educación, el empleo y la ocupación, los servicios sociales y el acceso a los bienes y servicios a disposición del público.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1hGAU_ETn_0tKX6UGqT-UXRoGMxL70T6W/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proposición no de Ley relativa a combatir los delitos de odio hacia el colectivo LGTBI",
+                                    "link": "Proposición no de Ley relativa a combatir los delitos de odio hacia el colectivo LGTBI - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsar la adopción por parte de las autoridades educativas de protocolos destinados a evitar el acoso transfóbico y homofóbico y favorecer el tratamiento de las personas trans en los centros educativos de acuerdo con su identidad de género.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1twfKBsEVqMmYQ5mP1Q1XDH9naFacNw30/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proposición no de Ley sobre el cumplimiento del artículo 27.1 y 27.2 de la Constitución española y la promoción de la libertad de pensamiento y el desarrollo de la capacidad crítica del alumnado.",
+                                    "link": "Proposición no de Ley sobre el cumplimiento del artículo 27.1 y 27.2 de la Constitución española y la promoción de la libertad de pensamiento y el desarrollo de la capacidad crítica del alumnado - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Para coordinar todas estas actuaciones, y así como las implementadas por otras administraciones públicas, aprobaremos un Plan Estratégico para la no Discriminación de las Personas LGBTI, para garantizar su igualdad real y efectiva.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Garantizaremos los tratamientos de reproducción asistida a todas las mujeres, independientemente de su orientación sexual y estado civil, una vez restablecido este derecho en la cartera de servicios comunes del Sistema Nacional de Salud",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aseguraremos que la inscripción de los hijos de parejas de mujeres lesbianas, concebidos a través de las técnicas de reproducción humana asistida admitidos en nuestro ordenamiento jurídico, se produce sin discriminación alguna en relación con las parejas heterosexuales que utilizan las mismas técnicas",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mejorar la formación de las y los empleados públicos, en especial de las fuerzas y cuerpos de seguridad y del personal al servicio de la administración de justicia, en materia del respeto a la diversidad sexo-afectiva y familiar.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promover la creación y funcionamiento del Consejo de Participación de las Personas LGBTI.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Adoptaremos medidas específicas para la inserción sociolaboral de las personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Colaborar con los movimientos sociales en la celebración de las fechas conmemorativas de la lucha por la igualdad de trato y la no discriminación de las personas LGBTI, así como en la recuperación de la memoria de la lucha por los derechos de este colectivo",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1ekCrVS8IWrRAcdJZOZMThAB8CQzO_8Di/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proposición no de Ley sobre memoria democrática",
+                                    "link": "Proposición no de Ley sobre memoria democrática - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsar la aprobación de protocolos específicos de atención destinados a personas mayores y con discapacidad LGBTI que tengan en cuenta sus necesidades específicas",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Garantizaremos la financiación pública de las operaciones de reasignación de género",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "En cumplimiento de las recomendaciones de distintos organismos internacionales (por ejemplo, la Resolución 2048 de la Asamblea Parlamentaria del Consejo de Europa de 22 de abril de 2015), impulsaremos la reforma de la Ley de identidad de género, eliminando los requisitos ligados a diagnósticos médicos y facilitando el cambio de la mención registral al sexo y el nombre de los menores de 16 años y las personas extranjeras con residencia legal en España en su documentación identificativa, así como la eliminación de la obligación de determinación del sexo en el caso de los menores intersexuales.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lucharemos, a nivel europeo e internacional, para que el reconocimiento de los derechos humanos del colectivo LGTBI, sea una realidad. Crearemos la figura del embajador o embajadora en misión especial para los Derechos Humanos y la Diversidad",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1fEzdaK2Su-7FAEfE9z9RO7lKZFAHSLGY/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proposición no de Ley sobre el papel de España en Iberoamérica en relación a los Derechos Humanos",
+                                    "link": "Búsqueda de iniciativas - Congreso de los Diputados"
+                                },
+                                {
+                                    "title": "Proposición no de Ley sobre promoción y defensa de los Derechos Humanos de las personas LGTBI en Guinea Ecuatorial",
+                                    "link": "Proposición no de Ley sobre promoción y defensa de los Derechos Humanos de las personas LGTBI en Guinea Ecuatorial - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proposición no de Ley sobre apoyo, promoción y transversalización del enfoque de diversidad sexual en la Cooperación Internacional al Desarrollo",
+                                    "link": "Proposición no de Ley sobre apoyo, promoción y transversalización del enfoque de diversidad sexual en la Cooperación Internacional al Desarrollo - TIPI Ciudadano"
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -2482,7 +2845,122 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Reconocer la diversidad familiar. Protección real de las distintas realidades familiares elegidas con libertad, con medidas de apoyo a la adopción a familias LGTBI, reconocimiento de la filiación de las parejas de mujeres lesbianas y protección jurídi-ca de las nuevas formas de convivencia estables sin ser pareja",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ampliar los derechos de personas lesbianas, gais, trans, bi-sexuales e intersexuales. Es necesario construir un horizonte en el que ninguna persona pueda ser discriminada ni por su orientación sexual ni por su identidad sexual, identidad de género o expresión de género . Para ello, aprobaremos dos leyes: una contra la discriminación por motivos de identidad de género y orientación sexual de las personas lesbianas, gais, trans, bisexuales e intersexuales, en la que se tendrán en cuenta también las dificultades específicas de las personas que for-man parte de un colectivo tan amplio; y otra, una ley integral sobre la protección jurídica de las personas trans y el derecho a la libre determinación de la identidad sexual, identidad de género o expresión de género, que incluirá la garantía de acceso voluntario a un acompañamiento sanitario profesional bajo criterios no patologizantes, la inclusión de su atención en el Sistema Nacional de Salud o la implementación de planes de empleo, entre otras medidas",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Facilitar el acceso a una maternidad libre y decidida, con acceso a la reproducción asistida y apoyos específicos a las mujeres en el momento en que decidan, si lo deciden, ser madres . Se incluirán tanto el primer embarazo como los pos-teriores a la hora de acceder a las técnicas de Reproducción Humana Asistida en el Sistema Nacional de Salud . Se promoverán medidas de protección para las mujeres que acce-dan a tratamientos de reproducción asistida en los mismos términos que los aplicados para los supuestos de embarazo en la legislación laboral . Se favorecerá, asimismo, el acceso a los últimos métodos anticonceptivos, incluidas la píldora masculina y la anticoncepción de urgencia, y la interrupción voluntaria del embarazo de todas las mujeres, incluidas las jóvenes de 16 y 17 años, en el Sistema Nacional de Salud . Se facilitará y favorecerá el acceso a estos servicios a las personas trans, para facilitar la conservación de su capacidad de gestar y fecundar.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Implementar un Plan de Mejora de la Convivencia para la Prevención del Bullying (acoso) y la Violencia en los Centros Educativos junto con las comunidades autónomas . Garantizaremos la seguridad y la igualdad de oportunidades para todo el alumnado, independiente de su lugar de procedencia, orientación sexual, identidad sexual, identidad de género o expresión de género o cualquier otra característica, introduciendo los perfiles profesionales educativos que sean necesarios . Para ello, se establecerán protocolos de actuación y de mediación, tanto en centros públicos como privados o privados concertados, y se suprimirán del material educativo los contenidos que perpetúen un modelo discriminatorio .",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1uA9dQOCZyEuQ2ktsomuIAJbJqhmnKcJA/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Enmienda a Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Disfrutar de nuestra libertad sexual. Todas las personas tenemos derecho a no ser objeto de violencias sexuales, así como a no sufrir discriminación por nuestra orientación sexual o por nuestra identidad sexual, identidad de género o expresión de género. Para garantizar este derecho, se pondrá un énfasis especial en la educación afectivo-sexual dentro del sistema educativo.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1ajU-nN6LIFvYn-WufQT9wh_2zFXZCjDv/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proposición no de Ley relativa a una educación sexual integral respetuosa con la diversidad sexual",
+                                    "link": "Proposición no de Ley relativa a una educación sexual integral respetuosa con la diversidad sexual - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Hacer justicia a nuestra memoria democrática. La recuperación de la memoria democrática de nuestro país va mucho más allá de la exhumación de la momia del dictador . Hace falta verdad, justicia, reparación y no repetición .Mientras tan-to, somos la excepcionalidad europea en términos de impu-nidad y de haberle dado la espalda a nuestra historia . Vamos a revertir esto de acuerdo con los principios de los derechos humanos en torno a los ejes de verdad (poder conocer lo ocurrido), justicia (llevar a los responsables ante los tribuna-les), reparación de las víctimas y no repetición (garantizar que no persisten hoy elementos que siguen causando daño) .Para avanzar en este camino, implementaremos un programa de exhumaciones de las víctimas del franquismo que conti-núan en fosas comunes, retiraremos las medallas concedidas a Billy el Niño y a otros torturadores del franquismo, modi-ficaremos la Ley de Amnistía para que se puedan juzgar los crímenes de lesa humanidad del fascismo, tal como hace ine- ludible el derecho internacional —que se incumple ahora en España—, y anularemos los juicios políticos del franquismo . También declararemos nulas las condenas y sanciones de tribunales, jurados y otros órganos penales, administrativos o militares dictadas durante la guerra civil española o la dictadura por motivos políticos, ideológicos, de creencia o de orientación sexual, identidad sexual, identidad de género o expresión de género. Al mismo tiempo, hay que señalar que el régimen franquista no solo fue una maquinaria autoritaria diseñada para la represión, sino que operó también como un mecanismo de saqueo y expolio hacia familias de la jerarquía franquista . Por ello, una de las claves en la reparación es audi-tar de los bienes expoliados por el franquismo para devolverlos a sus legítimos titulares .",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -3266,7 +3744,274 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Reconocer a la Constitución los derechos de las personas LGTBI , el respeto hacia la diversidad sexual y la identidad de género, incluyendo el derecho en el matrimonio entre parejas del mismo sexo y el derecho de constituir una familia.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aprobar una nueva ley contra la homofobia y la transfobia con competencias penales para incriminar las discriminaciones más graves contra personas LGTBI",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Llevar a cabo una política sensible respecto de las personas LGTBI perseguidas en sus países de origen y disponer de mecanismos de acogida",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Establecer un nuevo marco laboral plenamente respetuoso con el derecho a no ser objeto de discriminación.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promover el respecto a la diversidad y la defensa de los derechos de las personas LGTBI a los organismos internacionales de los cuales formamos parte, como la *ILGA",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsar la aprobación de la Ley de Igualdad LGTBI y apoyar la aprobación de aquellos proyectos legislativos que permitan avanzar en la igualdad legal de las personas LGTBI, como la Ley por la igualdad de trato y la no discriminación.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Oposición frontal a cualquier intento de retroceso en el ámbito legislativo por parte de los partidos y organizaciones de la extrema derecha, de los derechos de las personas LGTBI.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsar la tramitación de la Ley de igualdad de Transexualidad y Transgénero, para avanzar en aspectos como la despatologización de la transexualidad al sistema sanitario público, posibilitar la inscripción de los menores y adultos trans al registro sin ningún tipo de informe médico o psiquiátrico o la mejora de la inserción social y laboral de las personas trans",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Modificar la ley 19/2007 contra la violencia, racismo, xenofobia e intolerancia al deporte para incluir las personas trans y reforzar los mecanismos de protección de las personas LGTBI en el ámbito de la práctica deportiva.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Garantizar el derecho a la financiación pública de la reproducción asistida de todas las mujeres, independientemente de su orientación sexual o estado civil, tal y como ya se está haciendo en Cataluña.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "aprobar las medidas fijadas en la resolución sobre el auge de la violencia enofascista en Europa aprobada en el Parlamento Europeo que apuesta por la persecución y sanción de los delitos de odio, la protección de colectivos y organizaciones que luchan contra el fascismo ",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "garantizar el derecho de las personas LGTBI refugiadas que en sus países de origen son perseguidas por su orientación sexual o identidad de género",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Recuperar la perspectiva del movimiento LGTBI en los programas de memoria histórica",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Educar a la infancia y la juventud en la igualdad y el respeto hacia las personas LGTBI+ y trabajar para erradicar el acoso escolar LGBTIfóbico, así como crear un plan integral contra la violencia LGTBIfóbica",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1lsxQcX7VxW8LrJFxuX_qzBW7sAUyrF0N/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -3936,7 +4681,103 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Promoveremos una Ley de diversidad sexual y de género que promueva una igualdad real para todas las personas LGTBI y acabe con cualquier discriminación que puedan sufrir. Facilitaremos el acceso a un alojamiento transitorio a las personas LGTBI, especialmente los jóvenes que se ven forzados a irse de su casa por el rechazo familiar a su orientación sexual. Atenderemos las necesidades específicas de las personas mayores LGTBI. Revisaremos la rectificación registral del género para cumplir las sentencias del Tribunal Constitucional.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1H4Or59AHnrSF-amK6l-k_vk5-rXgabUo/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proposición no de Ley sobre la igualdad social de las personas mayores LGTBI y sobre la normalización de la diversidad en centros residenciales de personas mayores",
+                                    "link": "Proposición no de Ley sobre la igualdad social de las personas mayores LGTBI y sobre la normalización de la diversidad en centros residenciales de personas mayores - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proposición no de Ley sobre la prohibición de los métodos, programas y terapias de aversión, conversión o contracondicionamiento de la orientación sexual o de la identidad o expresión de género",
+                                    "link": "Proposición no de Ley sobre la prohibición de los métodos, programas y terapias de aversión, conversión o contracondicionamiento de la orientación sexual o de la identidad o expresión de género - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proposición de Ley Orgánica de igualdad social de las personas lesbianas, gais, bisexuales, transexuales, transgénero e intersexuales, de protección de la realidad trans y de no discriminación por razón de orientación sexual, identidad o expresión de género o características sexuale",
+                                    "link": "Proposición de Ley Orgánica de igualdad social de las personas lesbianas, gais, bisexuales, transexuales, transgénero e intersexuales, de protección de la realidad trans y de no discriminación por razón de orientación sexual, identidad o expresión de género o características sexuales - TIPI Ciudadano"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aprobaremos una Ley Orgánica de Igualdad de Trato y No Discriminación para transponer adecuadamente la normativa de la Unión Europea y ofrecer protección a todas las víctimas. Combatiremos la intolerancia y los discursos de odio, sobre todo a través de las redes sociales, siguiendo las recomendaciones de organismos internacionales. En particular, impulsaremos la igualdad del pueblo gitano en España con la mejora de la Estrategia Nacional de Inclusión Social de la Población Gitana, con una especial referencia a la situación de las mujeres gitanas.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1mejniQhxEHWgbWm0s9bDK1FHUJ_7IF_Z/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Proposición no de Ley relativa a la defensa de los derechos de las personas LGTBI y la promoción de la persecución de aquellos que vulneren derechos fundamentales de este colectivo ante la Corte Penal Internacional",
+                                    "link": "Proposición no de Ley relativa a la defensa de los derechos de las personas LGTBI y la promoción de la persecución de aquellos que vulneren derechos fundamentales de este colectivo ante la Corte Penal Internacional - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": " Blindaremos el matrimonio entre personas LGTBI.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1DNTOGf-a5J9E69KJ_5y_SfznygUjsXKK/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proposición de Ley Orgánica de igualdad social de las personas lesbianas, gais, bisexuales, transexuales, transgénero e intersexuales, de protección de la realidad trans y de no discriminación por razón de orientación sexual, identidad o expresión de género o características sexuales",
+                                    "link": "Proposición de Ley Orgánica de igualdad social de las personas lesbianas, gais, bisexuales, transexuales, transgénero e intersexuales, de protección de la realidad trans y de no discriminación por razón de orientación sexual, identidad o expresión de género o características sexuales - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos una Ley de Gestación Subrogada altruista y garantista para que las mujeres que no pueden concebir y las familias LGTBI puedan cumplir su sueño de formar una familia Nuestro modelo altruista de gestación por sustitución, similar al de Canadá y Reino Unido, garantizará los derechos de todas las personas intervinientes en el proceso, en especial los de las mujeres gestantes y los de los menores nacidos mediante esta técnica de reproducción asistida",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Combatiremos la intolerancia en el deporte y garantizaremos la convivencia y el respeto a los símbolos constitucionales, como el himno nacional o la Jefatura del Estado, en todas las competiciones deportivas. Endureceremos las sanciones por comportamientos que ultrajen los símbolos constitucionales, enaltezcan el terrorismo o promuevan conductas de odio (racismo, sexismo, LGTBIfobia, etc.).",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1Suq5vswPqEdhNyOS8ridBk8FTtFyuRwy/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Proposición de Ley Orgánica de igualdad social de las personas lesbianas, gais, bisexuales, transexuales, transgénero e intersexuales, de protección de la realidad trans y de no discriminación por razón de orientación sexual, identidad o expresión de género o características sexuales ",
+                                    "link": "Proposición de Ley Orgánica de igualdad social de las personas lesbianas, gais, bisexuales, transexuales, transgénero e intersexuales, de protección de la realidad trans y de no discriminación por razón de orientación sexual, identidad o expresión de género o características sexuales - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -4435,7 +5276,65 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Por el reconocimiento de los derechos de las personas del colectivo  LGTBI (lesbianas, gays, bisexuales, trangénero e intersexuales) en todos los ámbitos.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Por el compromiso en la lucha contra la homofobia, la bifobia y la transfobia, por avanzar en la tolerancia, la convivencia y el reconocimiento de la diversidad de  las orientación sexuales e identidad de género. Así mismo, se tiene que valorar el reconocimiento de los derechos humanos universales en el momento de priorizar acuerdos y convenios internacionales",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Garantizar el reconocimiento de la heterogeneidad  de las familias con hijos y abordar la modificación de la denominación de los permisos de maternidad y paternidad por nacimiento, adopción y acogida, para evitar de este modo la  discriminación en las familias con progenitores del mismo sexo.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -5580,11 +6479,15 @@
                 },
                 {
                     "id": "infancia-migrante",
+                    "commits": []
+                },
+                {
+                    "id": "lgtbiq",
                     "commits": [
                         {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
+                            "title": "Defenderemos los derechos y libertades de las mujeres, a luchar contra la violencia machista estructural que sufrimos, y trabajar por la igualdad desde los valores transformadores feministas para que se reconozca nuestros derecho a decidir sobre nuestros cuerpos, nuestra sexualidad y nuestras vidas",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
                             "initiatives": [
                                 {
                                     "title": "",
@@ -5601,10 +6504,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "id": "lgtbiq",
-                    "commits": []
                 },
                 {
                     "id": "empleo-juvenil",
@@ -6008,7 +6907,597 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Crearemos un Consejo LGTBI+ estatal como un espacio de participación ciudadana en materia de derechos LGTBI+ y cómo órgano consultivo de las administraciones públicas que inciden en este ámbito.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Simplificaremos los procesos de adopción para garantizar la imparcialidad y el interés del menor, sin importar la orientación sexual o identidad de género de las personas solicitantes. Facilitaremos el reconocimiento de la descendencia de las familias LGTBI+, sea por nacimiento o adopción, sin necesidad de matrimonio o de registro previo.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promoveremos la creación de vestuarios y aseos neutros en todos los edificios públicos para combatir el binarismo de género y la discriminación y exclusión de personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Desarrollaremos un plan integral de protección de las personas LGTBI+ en el ámbito del deporte, en el que se incluirán estrategias y medidas destinadas a proteger los derechos de las personas LGTBI+ en el acceso y desempeño de la práctica deportiva. De igual modo abordaremos la LGTBIfobia mediante la visibilización de referentes LGTBI+ del deporte, y mediante la formación de los profesionales del ámbito deportivo en diversidad afectivo-sexual y de género. También implementaremos un protocolo de actuación para garantizar competiciones y espacios deportivos seguros y libres de LGTBIfobia",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incorporaremos la perspectiva de diversidad afectivo-sexual y de género en la nueva Ley del Deporte. Simultáneamente incluiremos en la Ley estatal de Igualdad LGTBI+ un capítulo específico sobre el ámbito deportivo, con el objetivo de garantizar los derechos LGTBI+ en el mismo",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Garantizaremos, en colaboración con las Comunidades Autónomas, que el profesorado no universitario y universitario reciba la formación necesaria para incluir en la labor docente el tratamiento de la diversidad afectivo-sexual y de género para prevenir, detectar y eliminar la LGTBIfobia, sexismo o cualquier otro prejuicio basado en la concepción heteronormativa de la sexualidad. Organizaremos cursos de formación específicos dirigidos a los profesionales de la comunidad educativa impartidos por personas expertas, las cuales tendrán garantizada la protección de sus datos",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1Dkhqdz9Le0I8yBJcwY8XrwFLuBO413ZU/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "En aras de prevenir y eliminar la LGTBIfobia en los centros educativos, especificaremos líneas de actuación en los protocolos de prevención, acompañamiento e intervención ante casos de acoso escolar por LGTBIfobia para proteger a las personas víctimas en colaboración con las Comunidades Autónomas.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1wyZpkd3x7YjzWVu40G-WAwmbo5Z4DeTG/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Enmienda a Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Verificaremos el cumplimiento del principio de igualdad de trato y oportunidades para familias LGTBI+, sin discriminación a la hora de entrar en un centro educativo por el hecho de ser una familia no heteronormativa.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos y fomentaremos la figura del enfermería especialista LGTBI+",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aseguraremos un trato adecuado a las personas LGTBI+ en las dependencias policiales, cárceles y tribunales por medio de un protocolo a tal efecto. Asimismo, garantizaremos la continuidad de cualquier tratamiento hormonal que pueda estar siguiendo cualquier persona trans que se encuentre en dependencias penitenciarias",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Apoyaremos proyectos de cooperación internacional enfocados al respeto de los Derechos Humanos, en especial en países en los que la comunidad LGTBI+ es perseguida. Potenciaremos que las relaciones que firme el Estado Español con otros estados respeten los derechos LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mejoraremos el acceso de las personas intersexuales a su historial médico y garantizaremos que nadie sea sometido a tratamientos médicos, intervenciones quirúrgicas o exploraciones genitales innecesarias durante la infancia o la niñez, garantizando de este modo la integridad corporal, la autonomía y la autodeterminación de los menores. Aseguraremos un apoyo psicológico a las personas que reciben un diagnóstico de DSD (diferencias en el desarrollo sexual) y a sus familiares desde el momento de la comunicación del diagnósticoMejora de la atención sanitaria para las personas trans mediante protocolos específicos. Reducción de tiempos de espera en operaciones, desarrollo de nuevos y mejores fármacos de terapia de sustitución hormonal y formación de más profesionales médicos y de enfermería especializados. Blindaremos por medio de la legislación estatal la prestación en todas las CC. AA. de los tratamientos específicos a las personas trans dentro de los sistemas públicos de salud.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promoveremos la realización de estudios periódicos a iniciativa del Ministerio correspondiente sobre el estado real de la LGTBIfobia y la calidad de vida de personas LGBTI+ en todo el territorio",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos un observatorio estatal contra la LGTBIfobia y elaboraremos campañas institucionales de sensibilización y prevención frente a la LGTBIfobia",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Potenciaremos la investigación en temáticas LGBTI+ e incentivaremos la presencia de profesionales trans en las investigaciones de género",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Puesta en marcha de estudios y campañas que visibilicen la realidad del colectivo LGTBI+.\n",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Colaborando con los distintos colegios profesionales, fomentaremos la formación y actualización de leyes y contenidos que les afecten en su trabajo respecto al colectivo LGTBI+",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reformaremos todos los formularios de las administraciones para que se adecúen a las nuevas realidades sociales. Así junto a las opciones en las que en la actualidad aparecen tan solo las opciones “madre/padre”, como fórmula de familia tradicional, aparecerán visibilizadas las opciones madre/madre o padre/padre para ayudar a la normalización de las familias diversas",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos la creación de centros LGTBI+ de acogida personal y familiar que ofrezcan información, apoyo psicológico, asesoramiento laboral, legal y jurídico a personas trans, intersexuales y a personas migradas o refugiadas que pertenezcan al colectivo LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Blindaremos el matrimonio igualitario mediante una reforma de la Constitución Española",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Medidas para el trato igualitario de mayores LGTBI+ en residencias, centros de día y lugares de ocio, así como apoyo a los proyectos sociales de la sociedad civil destinados a atender a los mayores LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos la creación de un Centro estatal de Documentación y Memoria Histórica LGTBI+. Promoveremos el homenaje del Congreso de los Diputados a las víctimas de la Ley de Peligrosidad Social.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lucharemos contra la doble discriminación sufrida por las mujeres del colectivo LGTBI+, como mujeres y como colectivo LGTBI+ , tanto en las campañas de prevención como en los protocolos de actuación contra la LGTBIfobia: acoso sexual, hipersexualización e invisibilización",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Nos comprometemos a no llegar a pactos de gobiernos que incluyan o estén apoyados por partidos políticos que atenten contra los derechos de las personas LGTBI+ y fomenten el odio y la discriminación, atendiendo como referencia fundamental a los Principios de Yogyakarta",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Proporcionaremos acceso a métodos de reproducción asistida, como el método ROPA, sin necesidad de que la pareja haya contraído matrimonio o esté registrada como pareja de hecho.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos un banco de ovocitos y esperma de carácter público y garantizaremos su acceso a las personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Campañas estatales de información, visibilización y ruptura de tabúes sobre las relaciones afectivo-sexuales de y con personas con diversidad funcional, en especial personas LGTBI+ con diversidad funcional, sometidas habitualmente a discriminación, infantilización y negación social de su sexualidad",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Prohibiremos por Ley las “terapias” de conversión o aversión de la sexualidad, tipificándolo en el Código Penal, siguiendo el ejemplo de Malta, que castiga la realización de estas prácticas.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Eliminaremos el requisito de un informe psiquiátrico-psicológico con diagnóstico de disforia de género para acceder a la cirugía y al tratamiento hormonal de reasignación de género dejando así de patologizar a las personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos una Ley Integral Trans que reconozca la autodeterminación de género a nivel institucional, incluyendo el género neutro e identidades no binarias, de acuerdo con la identidad sentida y manifestada, y estableciendo en todos los formularios administrativos de cualquier índole, una tercera casilla de “no binario” para indicar el género. Al mismo tiempo, prohibiremos que las entidades públicas y privadas exijan la autoidentificación de género o sexo de cualquier persona si no es estrictamente necesario. Al mismo tiempo, fomentaremos el uso del lenguaje inclusivo en la Administración Pública.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos una red de apoyo para las personas que han sido expulsadas de sus hogares por su identidad de género u orientación sexual\n",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -7224,11 +8713,15 @@
                 },
                 {
                     "id": "infancia-migrante",
+                    "commits": []
+                },
+                {
+                    "id": "lgtbiq",
                     "commits": [
                         {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
+                            "title": "¡FEMINISMO PARA CAMBIARLO TODO! Luchamos de la mano de un feminismoque hace una enmienda a la totalidad al Estado español y a su sistema económico ypolítico. Un estado que, con la complicidad de la Iglesia católica, perpetúa día a día la violencia machista y LGBTfóbico, y que vulera sistemáticamente el derecho de las mujeres a vivir una vida digna y nuestro derecho a decidir sobre el propio cuerpo.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
                             "initiatives": [
                                 {
                                     "title": "",
@@ -7245,10 +8738,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "id": "lgtbiq",
-                    "commits": []
                 },
                 {
                     "id": "empleo-juvenil",
@@ -8134,27 +9623,7 @@
                 },
                 {
                     "id": "cambio-climatico",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "migraciones",
@@ -8272,27 +9741,7 @@
             "commitments": [
                 {
                     "id": "pobreza-infantil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "infancia-migrante",
@@ -8324,75 +9773,15 @@
                 },
                 {
                     "id": "empleo-juvenil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "cambio-climatico",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "migraciones",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 }
             ]
         },
@@ -8477,7 +9866,27 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Uno de los desafíos políticos sigue siendo la lucha contra la LGTBIfobia, que continúa estando presente en los distintos ámbitos de nuestra sociedad. Un problema que precisa de medidas que contribuyan a respetar la realidad LGTBI y que ofrezca a este colectivo el respaldo legal y social que precisan para denunciar los actos de violencia, avanzar en la igualdad en el ámbito laboral, el impulso de protocolos de actuación para los casos de acoso escolar o una atención sanitaria que se ajuste a sus necesidades.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -8786,7 +10195,27 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Uno de los desafíos políticos sigue siendo la lucha contra la LGTBIfobia, que continúa estando presente en los distintos ámbitos de nuestra sociedad. Un problema que precisa de medidas que contribuyan a respetar la realidad LGTBI y que ofrezca a este colectivo el respaldo legal y social que precisan para denunciar los actos de violencia, avanzar en la igualdad en el ámbito laboral, el impulso de protocolos de actuación para los casos de acoso escolar o una atención sanitaria que se ajuste a sus necesidades.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -8942,7 +10371,65 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Combatir cualquier tipo de discriminación por orientación sexual. Incorporar la diversidad afectivo-sexual en la legislación de forma real y transversal, especialmente en materia de derechos civiles y política social.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "La prohibición total de las llamadas \"terapias de conversión\" por no ser científicas y por violar la dignidad y la libertad de las personas LGBT. Impulsar el desarrollo de un Protocolo para la prevención, detección y tratamiento del acoso y el ciberacoso.\n",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aprobación de una ley integral que reconozca el derecho a la identidad de género y elimine definitivamente la necesidad de un diagnóstico de “disforia de género” a través de informes médicos o psicológicos, con el fin de acabar con la patologización de las personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -9013,27 +10500,7 @@
                 },
                 {
                     "id": "migraciones",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 }
             ]
         },
@@ -9070,51 +10537,11 @@
             "commitments": [
                 {
                     "id": "pobreza-infantil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "infancia-migrante",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "lgtbiq",
@@ -9150,27 +10577,7 @@
                 },
                 {
                     "id": "migraciones",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 }
             ]
         },
@@ -9207,51 +10614,11 @@
             "commitments": [
                 {
                     "id": "pobreza-infantil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "infancia-migrante",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "lgtbiq",
@@ -9345,27 +10712,7 @@
                 },
                 {
                     "id": "migraciones",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 }
             ]
         },
@@ -9402,51 +10749,11 @@
             "commitments": [
                 {
                     "id": "pobreza-infantil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "infancia-migrante",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "lgtbiq",
@@ -9454,75 +10761,15 @@
                 },
                 {
                     "id": "empleo-juvenil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "cambio-climatico",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "migraciones",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 }
             ]
         }
