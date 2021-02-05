@@ -111,6 +111,9 @@ export default {
       return topic.score;
     },
   },
+  mounted() {
+    this.resetCalculation();
+  },
   methods: {
     resetCalculation() {
       const p = this.overview.find((topic) => topic.id === this.commitment.id);

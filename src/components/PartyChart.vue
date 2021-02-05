@@ -5,12 +5,21 @@
       :viewBox="`0 0 ${width} ${height}`"
       :width="width"
       :height="height">
-      <g
-        class="chart__group"
-        :transform="centerTransform"
-      >
-        <circle cx="0" cy="2" :r="radius" stroke="rgba(0,0,0,.3)" stroke-width="2" fill="transparent"/>
-        <circle cx="0" cy="0" :r="radius" stroke="white" stroke-width="2" fill="transparent"/>
+      <g class="chart__group" :transform="centerTransform">
+        <circle
+          cx="0"
+          cy="2"
+          :r="radius"
+          stroke="rgba(0,0,0,.3)"
+          stroke-width="2"
+          fill="transparent"/>
+        <circle
+          cx="0"
+          cy="0"
+          :r="radius"
+          stroke="white"
+          stroke-width="2"
+          fill="transparent"/>
         <path :d="currentPath" fill="black"></path>
       </g>
     </svg>
