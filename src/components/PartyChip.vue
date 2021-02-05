@@ -54,7 +54,13 @@ export default {
       if (commitment === undefined) return [];
 
       const tallysCount = commitment.commits.reduce((acc, commit) => {
-        acc[commit.compliance.toUpperCase()] += 1;
+        if (commit.compliance.toUpperCase() === 'CUMPLIDO') {
+          acc.CUMPLIDO += 1;
+        } else if (commit.compliance.toUpperCase() === 'PARCIALMENTE CUMPLIDO') {
+          acc['PARCIALMENTE CUMPLIDO'] += 1;
+        } else {
+          acc['NO CUMPLIDO'] += 1;
+        }
         return acc;
       }, {
         CUMPLIDO: 0,
