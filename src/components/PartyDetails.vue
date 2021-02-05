@@ -4,6 +4,7 @@
     <div class="partydetails__chart">
       <PartyChart :valuePercent="score"></PartyChart>
       <p class="partydetails__chart-legend">
+        <span class="partydetails__chart-score">Puntuacion {{getCommitmentScore}}</span><br>
         <span v-for="(t, i) in tallys" :key="i">
           <span v-if="t.value === 1">{{t.value}} {{t.name}}</span>
           <span v-if="t.value > 1">{{t.value}} {{t.name}}s</span>
@@ -101,6 +102,13 @@ export default {
       type: Object,
       required: true,
       default: () => ({}),
+    },
+  },
+  computed: {
+    getCommitmentScore() {
+      if (!this.overview.length || !this.commitment.id) return '';
+      const topic = this.overview.find((t) => t.id === this.commitment.id);
+      return topic.score;
     },
   },
   methods: {
@@ -280,6 +288,9 @@ export default {
       left: 0;
       top: 121px;
       text-align: center;
+    }
+    &-score {
+      font-weight: 600;
     }
     &-legend {
       text-shadow: 0 1px 2px rgb(0 0 0 / 50%);

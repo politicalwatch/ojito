@@ -20,7 +20,7 @@
         class="party__tab"
         :class="{'is-active': commitment.id === tab.id}"
         @click="setCommitment(tab)">
-        <div>{{getCommitmentName(tab)}}</div>
+        <div>{{getCommitmentName(tab)}} <span>{{getCommitmentScore(tab)}}</span></div>
       </div>
     </div>
 
@@ -66,6 +66,10 @@ export default {
       const topic = this.topics.find((t) => t.id === commitment.id);
       return topic.name;
     },
+    getCommitmentScore(commitment) {
+      const topic = this.party.overview.find((t) => t.id === commitment.id);
+      return topic.score;
+    },
     escapeKeyPress(event) {
       if (event.key === 'Escape') {
         window.location.href = '/';
@@ -110,6 +114,7 @@ export default {
   &__tabs {
     display: flex;
     overflow-x: auto;
+    margin-top: 24px;
     &::-webkit-scrollbar {
       height: 0;
     }
@@ -139,8 +144,22 @@ export default {
       text-decoration: underline;
     }
 
-    &:first-child {
-      // padding-left: 0;
+    span {
+      margin-top: 4px;
+      margin-left: 3px;
+      background: white;
+      color: black;
+      font-size: 12px;
+      font-weight: 400;
+      width: 18px;
+      height: 18px;
+      text-align: center;
+      display: inline-block;
+      line-height: 18px;
+      border-radius: 11px;
+      padding: 1px;
+      vertical-align: top;
+      text-shadow: none;
     }
 
     &.is-active {
