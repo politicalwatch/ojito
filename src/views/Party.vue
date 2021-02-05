@@ -11,7 +11,6 @@
 
     <div class="party__head">
       <h1 class="party__name">{{party.name}}</h1>
-      <p class="party__hint">Selecciona el compromiso para ver el detalle</p>
     </div>
 
     <div class="party__tabs">
@@ -106,11 +105,6 @@ export default {
     margin-bottom: 0;
     margin-top: 32px;
     text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
-  }
-
-  &__hint {
-    font-size: 14px;
-    text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
   }
 
   &__tabs {
