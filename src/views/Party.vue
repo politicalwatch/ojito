@@ -21,7 +21,7 @@
         class="party__tab"
         :class="{'is-active': commitment.id === tab.id}"
         @click="setCommitment(tab)">
-        <div>{{getCommitmentName(tab)}} <span>{{getCommitmentScore(tab)}}</span></div>
+        <div>{{getCommitmentName(tab)}}</div>
       </div>
     </div>
 
@@ -171,24 +171,6 @@ export default {
     }
     &:hover > div {
       text-decoration: underline;
-    }
-
-    span {
-      margin-top: 4px;
-      margin-left: 3px;
-      background: white;
-      color: black;
-      font-size: 12px;
-      font-weight: 400;
-      width: 18px;
-      height: 18px;
-      text-align: center;
-      display: inline-block;
-      line-height: 18px;
-      border-radius: 11px;
-      padding: 1px;
-      vertical-align: top;
-      text-shadow: none;
     }
 
     &.is-active {

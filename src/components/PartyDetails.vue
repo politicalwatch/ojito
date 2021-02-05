@@ -21,6 +21,9 @@
     </div>
 
     <div class="partydetails__commits">
+      <div class="partydetails__score">
+        {{getCommitmentScore}}/10
+      </div>
       <h2>Compromisos</h2>
       <div
         v-for="(commit, i) in commitment.commits"
@@ -300,6 +303,12 @@ export default {
     }
   }
 
+  &__score {
+    margin-bottom: 6px;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  }
+
   .tallymarks {
     display: inline-block;
     background: black;
@@ -331,7 +340,7 @@ export default {
 
 @media screen and (min-width: 1180px) {
   .partydetails {
-    margin-top: 60px;
+    margin-top: 30px;
     flex-wrap: nowrap;
 
     &__commits {
