@@ -64,7 +64,11 @@ export default {
     }
 
     // Trigger horizontal scroll animation to show hidden tabs
-    setTimeout(() => { this.showScroll(); }, 700);
+    setTimeout(() => {
+      if (window.innerWidth < 1200) {
+        this.showScroll();
+      }
+    }, 700);
 
     // Capture ESC key
     window.addEventListener('keyup', this.escapeKeyPress);
