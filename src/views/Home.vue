@@ -57,8 +57,8 @@ export default {
     this.$store.dispatch('getParties');
   },
   created() {
-    const body = document.getElementsByTagName('body')[0];
-    body.style.background = 'transparent';
+    const app = document.getElementById('app');
+    app.style.background = 'transparent';
   },
   watch: {
     activeFilter(filter) {

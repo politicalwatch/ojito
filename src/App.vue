@@ -28,6 +28,11 @@ export default {
 <style lang="scss">
 .main {
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   &__back {
     position: fixed;
     top: 0;

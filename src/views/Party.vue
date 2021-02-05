@@ -89,8 +89,8 @@ export default {
       // Set active tab
       this.setCommitment(party.commitments[0]);
       // Change body background
-      const body = document.getElementsByTagName('body')[0];
-      body.style.background = `linear-gradient(90deg, ${party.color}99 30%, ${party.color} 100%)`;
+      const app = document.getElementById('app');
+      app.style.background = `linear-gradient(90deg, ${party.color}99 30%, ${party.color} 100%)`;
     },
   },
   watch: {
@@ -98,8 +98,8 @@ export default {
   },
   beforeUnmount() {
     this.$store.dispatch('setParty', {});
-    const body = document.getElementsByTagName('body')[0];
-    body.style.background = 'transparent';
+    const app = document.getElementById('app');
+    app.style.background = 'transparent';
     window.removeEventListener('keyup', this.escapeKeyPress);
   },
 };
@@ -174,7 +174,6 @@ export default {
   }
   &__empty {
     margin: 40px 0;
-    height: 50vh;
     h2 {
       font-size: 24px;
       font-weight: 600;

@@ -29,6 +29,7 @@ a {
 }
 
 #app {
+  min-height: 100vh;
 }
 
 .page {
@@ -36,6 +37,7 @@ a {
   width: 100%;
   box-sizing: border-box;
   min-height: calc(100% - 30px);
+  flex: 1 1 auto;
 
   &__close {
     position: absolute;
