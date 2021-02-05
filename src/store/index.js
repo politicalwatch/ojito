@@ -51,8 +51,6 @@ export default createStore({
             .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
         }))
         .sort(sortPartiesByGeneralCompliance);
-      console.log(data.parties);
-      console.log(state.parties);
     },
     /**
      * Update party data

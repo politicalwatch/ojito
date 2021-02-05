@@ -10,13 +10,14 @@
     </router-link>
 
     <div class="party__head">
-      <h1 class="party__name">{{party.name}}</h1>
+      <h1 class="party__name" @click="showScroll">{{party.name}}</h1>
     </div>
 
-    <div class="party__tabs">
+    <div class="party__tabs" id="tabs">
       <div
         v-for="(tab, i) in party.commitments"
         :key="i"
+        :id="`party-tab-${i}`"
         class="party__tab"
         :class="{'is-active': commitment.id === tab.id}"
         @click="setCommitment(tab)">
@@ -49,6 +50,7 @@ export default {
   data() {
     return {
       commitment: {},
+      isScrolled: false,
     };
   },
   computed: {
@@ -60,10 +62,28 @@ export default {
     } else {
       this.setParty();
     }
+
+    // Trigger horizontal scroll animation to show hidden tabs
+    setTimeout(() => { this.showScroll(); }, 700);
+
     // Capture ESC key
     window.addEventListener('keyup', this.escapeKeyPress);
   },
   methods: {
+    showScroll() {
+      const myElement = document.getElementById('tabs');
+      const limit = 36;
+      const steps = 3;
+
+      if (!this.isScrolled && myElement.scrollLeft < limit) {
+        myElement.scrollLeft += steps;
+        window.requestAnimationFrame(this.showScroll);
+      } else if (myElement.scrollLeft > 0) {
+        this.isScrolled = true;
+        myElement.scrollLeft -= steps;
+        window.requestAnimationFrame(this.showScroll);
+      }
+    },
     setCommitment(commit) {
       this.commitment = commit;
     },
