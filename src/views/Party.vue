@@ -24,7 +24,12 @@
       </div>
     </div>
 
+    <div class="party__empty" v-if="!commitment || !commitment.commits?.length > 0">
+      <h2>Sin compromisos</h2>
+    </div>
+
     <PartyDetails
+      v-if="commitment && commitment.commits?.length > 0"
       :commitment="commitment"
       :overview="party.overview"
     ></PartyDetails>
@@ -165,6 +170,16 @@ export default {
     &.is-active {
       background: #000000;
       border-bottom-color: black;
+    }
+  }
+  &__empty {
+    margin: 40px 0;
+    height: 50vh;
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+      margin-bottom: 18px;
     }
   }
 }
