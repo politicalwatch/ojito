@@ -62,6 +62,7 @@ def get_commits(party='', topics=''):
             for topic in topics
             ]
 
+
 with open('overview.csv') as csv_file:
     csv_reader = csv.DictReader(csv_file)
     line_count = 0
