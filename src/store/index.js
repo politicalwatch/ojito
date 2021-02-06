@@ -32,19 +32,20 @@ export default createStore({
       const topics = new Map();
       data.topics.forEach((topic) => topics.set(topic.id, topic.name));
 
-      // Sort commitments alphabetically before assigning
+      // Sort commitments, parse scores and remove empty initiatives
       state.parties = data.parties
         .map((party) => ({
           ...party,
           overview: party.overview
-            .map((topic) => ({ ...topic, score: parseScore(topic.score) })),
+            .map((topic) => ({ ...topic, score: parseScore(topic.score) })), // Scores to float
           commitments: party.commitments
             .map((commitment) => ({
               ...commitment,
               commits: commitment.commits
                 .map((commit) => ({
                   ...commit,
-                  initiatives: commit.initiatives.filter((i) => i.link.length > 0),
+                  initiatives: commit.initiatives
+                    .filter((i) => i.link.length > 0), // Remove empty initiatives
                 })),
             }))
             .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
