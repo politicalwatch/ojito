@@ -45,8 +45,7 @@ export default createStore({
                 .map((commit) => ({
                   ...commit,
                   initiatives: commit.initiatives.filter((i) => i.link.length > 0),
-                }))
-                .filter((commit) => commit.initiatives.length > 0),
+                })),
             }))
             .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
         }))
