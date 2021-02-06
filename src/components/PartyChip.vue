@@ -59,7 +59,7 @@ export default {
         const score2 = this.party.commitments
           .reduce((acc, commitment) => {
             const subs = commitment.commits
-              .reduce((bcc, commit) => tallyParser(commit.compliance, acc), baseScore);
+              .reduce((bcc, commit) => tallyParser(commit.compliance, bcc), baseScore);
             return {
               CUMPLIDO: acc.CUMPLIDO + subs.CUMPLIDO,
               'PARCIALMENTE CUMPLIDO': acc['PARCIALMENTE CUMPLIDO'] + subs['PARCIALMENTE CUMPLIDO'],
@@ -69,6 +69,7 @@ export default {
 
         const totalTallys = Object.keys(score2).reduce((acc, key) => acc + score2[key], 0);
         const reduceFactor = totalTallys > 0 ? 20 / totalTallys : 0;
+
         return Object.keys(score2).map((key) => ({
           name: key.charAt(0).toUpperCase() + key.slice(1).toLowerCase(),
           value: Math.round(score2[key] * reduceFactor),
