@@ -1,8 +1,9 @@
 <template>
   <div class="tallymarks">
     <div
-      v-for="(d, i) in datum"
-      :key="i" class="tallymarks__group"
+      v-for="(d, i) in getData()"
+      :key="i"
+      class="tallymarks__group"
       v-show="d.value > 0">
       <div
         v-for="(mark, j) in Array(d.value)"
@@ -27,6 +28,11 @@ export default {
       type: Function,
       required: false,
       default: () => 'white',
+    },
+  },
+  methods: {
+    getData() {
+      return this.datum.filter((g) => g.value > 0);
     },
   },
 };
