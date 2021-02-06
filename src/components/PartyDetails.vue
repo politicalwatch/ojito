@@ -4,7 +4,7 @@
     <div class="partydetails__chart">
       <PartyChart :valuePercent="score"></PartyChart>
       <p class="partydetails__chart-legend">
-        <span class="partydetails__chart-score">Puntuacion {{getCommitmentScore}}</span><br>
+        <span class="partydetails__chart-score">Puntuación: {{getCommitmentScore}}</span><br>
         <span v-for="(t, i) in tallys" :key="i">
           <span v-if="t.value === 1">{{t.value}} {{t.name}}</span>
           <span v-if="t.value > 1">{{t.value}} {{t.name}}s</span>
@@ -21,9 +21,6 @@
     </div>
 
     <div class="partydetails__commits">
-      <div class="partydetails__score">
-        {{getCommitmentScore}}/10
-      </div>
       <h2>Compromisos</h2>
       <div
         v-for="(commit, i) in commitment.commits"
@@ -297,6 +294,7 @@ export default {
     }
     &-score {
       font-weight: 600;
+      font-size: 1.3rem;
     }
     &-legend {
       text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
