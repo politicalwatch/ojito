@@ -2355,27 +2355,7 @@
             "commitments": [
                 {
                     "id": "pobreza-infantil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "infancia-migrante",
@@ -6435,27 +6415,7 @@
             "commitments": [
                 {
                     "id": "pobreza-infantil",
-                    "commits": [
-                        {
-                            "title": "",
-                            "compliance": "",
-                            "pdf": "",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "commits": []
                 },
                 {
                     "id": "infancia-migrante",
