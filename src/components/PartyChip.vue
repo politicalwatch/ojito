@@ -68,7 +68,10 @@ export default {
           }, baseScore);
 
         const totalTallys = Object.keys(score2).reduce((acc, key) => acc + score2[key], 0);
-        const reduceFactor = totalTallys > 0 ? 20 / totalTallys : 0;
+
+        let reduceFactor = 1;
+        if (totalTallys > 20) reduceFactor = 20 / totalTallys;
+        if (totalTallys === 0) reduceFactor = 0;
 
         return Object.keys(score2).map((key) => ({
           name: key.charAt(0).toUpperCase() + key.slice(1).toLowerCase(),
