@@ -480,7 +480,7 @@
                             ]
                         },
                         {
-                            "title": "Elaboraremos un Plan de Reforma del Sistema Eléctrico que favorezca la transición hacia la descarbonización y unos precios asequibles para el consumidor y las empresas",
+                            "title": "Apostamos por la nueva fiscalidad verde como mecanismo para desincentivar comportamientos nocivos para el medioambiente, evitando siempre que cualquier modificación recaiga sobre las clases medias y trabajadoras o sobre autónomos y PYMES. Promoveremos a nivel europeo el establecimiento de un mecanismo de compensación del CO2 en frontera para las importaciones.",
                             "compliance": "NO CUMPLIDO",
                             "pdf": "No hay actos",
                             "initiatives": [
@@ -3896,7 +3896,7 @@
                             ]
                         },
                         {
-                            "title": "aprobar las medidas fijadas en la resolución sobre el auge de la violencia enofascista en Europa aprobada en el Parlamento Europeo que apuesta por la persecución y sanción de los delitos de odio, la protección de colectivos y organizaciones que luchan contra el fascismo",
+                            "title": "Aprobar las medidas fijadas en la resolución sobre el auge de la violencia enofascista en Europa aprobada en el Parlamento Europeo que apuesta por la persecución y sanción de los delitos de odio, la protección de colectivos y organizaciones que luchan contra el fascismo",
                             "compliance": "NO CUMPLIDO",
                             "pdf": "No hay actos",
                             "initiatives": [
@@ -3915,7 +3915,7 @@
                             ]
                         },
                         {
-                            "title": "garantizar el derecho de las personas LGTBI refugiadas que en sus países de origen son perseguidas por su orientación sexual o identidad de género",
+                            "title": "Garantizar el derecho de las personas LGTBI refugiadas que en sus países de origen son perseguidas por su orientación sexual o identidad de género",
                             "compliance": "NO CUMPLIDO",
                             "pdf": "No hay actos",
                             "initiatives": [
@@ -4272,188 +4272,17 @@
                     "id": "migraciones",
                     "commits": [
                         {
-                            "title": "Emprender medidas urgentes que reviertan las consecuencias de los actuales retos del Mediterráneo como los flujos migratorios o el refugio por solidaridad y responsabilidad.",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Reconocer la plena ciudadanía a todas las personas otros orígenes que puedan demostrar la voluntad de serlo, con un trámite administrativo previo. Las personas migradas tienen que tener garantizado el acceso a la nacionalidad catalana el día fundacional de la República Catalana con los mismos criterios de residencia al territorio que cualquier otro ciudadano.",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Emprender actuaciones de acción positiva para prevenir el racismo y a la xenofobia y evitar la discriminación o la exclusión social de todos los grupos sociales.",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Aprobar la ley del derecho de asilo y de la protección subsidiaria catalana con un sistema para la acogida y acomodación de las personas refugiadas y solicitantes de protección internacional, regulado y coordinado en el ámbito nacional, implementado mediante los entes locales y las entidades sin ánimo de lucro.",
+                            "title": "Derogar la ley de extranjería y promover la ley de movilidad humana que garantice el trato digno para todas las personas mediante vías legales y seguras, que permita la obtención de la nacionalidad por residencia con un máximo real de 5 años y flexibilice la concesión de permisos de residencia.",
                             "compliance": "PARCIALMENTE CUMPLIDO",
-                            "pdf": "https://drive.google.com/file/d/1DKn4ccUiSp4scpjbhMurAPV7SC50VmGX/view?usp=sharing",
+                            "pdf": "https://drive.google.com/file/d/1AZtqTe4PPsjioppab9l9t4yc8NuElzmS/view?usp=sharing",
                             "initiatives": [
                                 {
-                                    "title": "Proposición no de Ley sobre la acogida de refugiados y el reconocimiento de derechos de asilo",
-                                    "link": "Proposición no de Ley sobre la acogida de refugiados y el reconocimiento de derechos de asilo - TIPI Ciudadano"
+                                    "title": "Proposición no de Ley relativa a la regularización exprés de personas inmigrantes en los ámbitos sanitario, de los cuidados y agrarios",
+                                    "link": "https://tipiciudadano.es/initiatives/954bb2a95e887b1c10ced91ac74f23db84e6f480"
                                 },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Instar a agilizar los trámites para cumplir el derecho a vivir en familia para conseguir el reagrupamiento familiar de las personas migradas",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "https://drive.google.com/file/d/15PEOociswxOgkUirnRHdt4XLaBBfK0Qx/view?usp=sharing",
-                            "initiatives": [
                                 {
                                     "title": "Proposición no de Ley relativa a la regularización urgente, permanente y sin condiciones de todas las personas migrantes que residen en el Estado español",
                                     "link": "Proposición no de Ley relativa a la regularización urgente, permanente y sin condiciones de todas las personas migrantes que residen en el Estado español - TIPI Ciudadano"
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Cierre de los Centros de Internamiento de Extranjeros (*CIEs), acabar con la práctica ilegal de las devoluciones en caliente y evitar la irregularidad sobrevenida.",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "https://drive.google.com/file/d/1A7jIj3rRZfFo_AOfmQV7pQMbt0YxcB_t/view?usp=sharing",
-                            "initiatives": [
-                                {
-                                    "title": "Proposición no de Ley relativa a la regularización urgente, permanente y sin condiciones de todas las personas migrantes que residen en el Estado español",
-                                    "link": "Proposición no de Ley relativa a la regularización urgente, permanente y sin condiciones de todas las personas migrantes que residen en el Estado español - TIPI Ciudadano"
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Elaborar una ley contra el racismo y la xenofobia que tenga como objetivo ilegalizar las prácticas discriminatorias por razón de origen y creencia.",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Garantizar el derecho de asilo a las personas refugiadas descentralizando el sistema de acogida y creando un Fondo de Acogida para financiarlo.",
-                            "compliance": "PARCIALMENTE CUMPLIDO",
-                            "pdf": "https://drive.google.com/file/d/1RCkTSW1vwZl15jifBUOz6qJfesA9S-qE/view?usp=sharing",
-                            "initiatives": [
-                                {
-                                    "title": "Proposición no de Ley sobre la acogida de refugiados y el reconocimiento de derechos de asilo",
-                                    "link": "Proposición no de Ley sobre la acogida de refugiados y el reconocimiento de derechos de asilo - TIPI Ciudadano"
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Aprobar la ley catalana de movilidad humana con la creación de la Agencia Catalana de la Movilidad Humana, adscrita a la Organización Internacional de las Migraciones (ya prevista en la Ley de Acogida y pendiente de creación)",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "La laicidad como espacio de libertad de conciencia y de creencias donde se favorezca el diálogo interreligioso y el conocimiento de las diversas tradiciones religiosas como medida para combatir prejuicios y actitudes xenófobas, velando de forma especial contra cualquier manifestación *islamòfoba.",
-                            "compliance": "NO CUMPLIDO",
-                            "pdf": "No hay actos",
-                            "initiatives": [
-                                {
-                                    "title": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "link": ""
                                 },
                                 {
                                     "title": "",
@@ -8812,7 +8641,7 @@
                 },
                 {
                     "id": "cambio-climatico",
-                    "score": "-"
+                    "score": "4,9"
                 },
                 {
                     "id": "migraciones",
@@ -8888,7 +8717,597 @@
                 },
                 {
                     "id": "lgtbiq",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Crearemos un Consejo LGTBI+ estatal como un espacio de participación ciudadana en materia de derechos LGTBI+ y cómo órgano consultivo de las administraciones públicas que inciden en este ámbito.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Simplificaremos los procesos de adopción para garantizar la imparcialidad y el interés del menor, sin importar la orientación sexual o identidad de género de las personas solicitantes. Facilitaremos el reconocimiento de la descendencia de las familias LGTBI+, sea por nacimiento o adopción, sin necesidad de matrimonio o de registro previo.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promoveremos la creación de vestuarios y aseos neutros en todos los edificios públicos para combatir el binarismo de género y la discriminación y exclusión de personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Desarrollaremos un plan integral de protección de las personas LGTBI+ en el ámbito del deporte, en el que se incluirán estrategias y medidas destinadas a proteger los derechos de las personas LGTBI+ en el acceso y desempeño de la práctica deportiva. De igual modo abordaremos la LGTBIfobia mediante la visibilización de referentes LGTBI+ del deporte, y mediante la formación de los profesionales del ámbito deportivo en diversidad afectivo-sexual y de género. También implementaremos un protocolo de actuación para garantizar competiciones y espacios deportivos seguros y libres de LGTBIfobia",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incorporaremos la perspectiva de diversidad afectivo-sexual y de género en la nueva Ley del Deporte. Simultáneamente incluiremos en la Ley estatal de Igualdad LGTBI+ un capítulo específico sobre el ámbito deportivo, con el objetivo de garantizar los derechos LGTBI+ en el mismo",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Garantizaremos, en colaboración con las Comunidades Autónomas, que el profesorado no universitario y universitario reciba la formación necesaria para incluir en la labor docente el tratamiento de la diversidad afectivo-sexual y de género para prevenir, detectar y eliminar la LGTBIfobia, sexismo o cualquier otro prejuicio basado en la concepción heteronormativa de la sexualidad. Organizaremos cursos de formación específicos dirigidos a los profesionales de la comunidad educativa impartidos por personas expertas, las cuales tendrán garantizada la protección de sus datos",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1gOkvfj_y7mn3dwAd7-B6Jbct-CJyj3_a/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "En aras de prevenir y eliminar la LGTBIfobia en los centros educativos, especificaremos líneas de actuación en los protocolos de prevención, acompañamiento e intervención ante casos de acoso escolar por LGTBIfobia para proteger a las personas víctimas en colaboración con las Comunidades Autónomas.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1aCsa3NuUdPLwyJTv9it4n-wRsa8G4aSA/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda al Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+                                    "link": "Proyecto de Ley Orgánica por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "Enmienda a Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia",
+                                    "link": "Proyecto de Ley Orgánica de protección integral a la infancia y la adolescencia frente a la violencia - TIPI Ciudadano"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Verificaremos el cumplimiento del principio de igualdad de trato y oportunidades para familias LGTBI+, sin discriminación a la hora de entrar en un centro educativo por el hecho de ser una familia no heteronormativa.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos y fomentaremos la figura del enfermería especialista LGTBI+",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aseguraremos un trato adecuado a las personas LGTBI+ en las dependencias policiales, cárceles y tribunales por medio de un protocolo a tal efecto. Asimismo, garantizaremos la continuidad de cualquier tratamiento hormonal que pueda estar siguiendo cualquier persona trans que se encuentre en dependencias penitenciarias",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Apoyaremos proyectos de cooperación internacional enfocados al respeto de los Derechos Humanos, en especial en países en los que la comunidad LGTBI+ es perseguida. Potenciaremos que las relaciones que firme el Estado Español con otros estados respeten los derechos LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mejoraremos el acceso de las personas intersexuales a su historial médico y garantizaremos que nadie sea sometido a tratamientos médicos, intervenciones quirúrgicas o exploraciones genitales innecesarias durante la infancia o la niñez, garantizando de este modo la integridad corporal, la autonomía y la autodeterminación de los menores. Aseguraremos un apoyo psicológico a las personas que reciben un diagnóstico de DSD (diferencias en el desarrollo sexual) y a sus familiares desde el momento de la comunicación del diagnósticoMejora de la atención sanitaria para las personas trans mediante protocolos específicos. Reducción de tiempos de espera en operaciones, desarrollo de nuevos y mejores fármacos de terapia de sustitución hormonal y formación de más profesionales médicos y de enfermería especializados. Blindaremos por medio de la legislación estatal la prestación en todas las CC. AA. de los tratamientos específicos a las personas trans dentro de los sistemas públicos de salud.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promoveremos la realización de estudios periódicos a iniciativa del Ministerio correspondiente sobre el estado real de la LGTBIfobia y la calidad de vida de personas LGBTI+ en todo el territorio",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos un observatorio estatal contra la LGTBIfobia y elaboraremos campañas institucionales de sensibilización y prevención frente a la LGTBIfobia",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Potenciaremos la investigación en temáticas LGBTI+ e incentivaremos la presencia de profesionales trans en las investigaciones de género",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Puesta en marcha de estudios y campañas que visibilicen la realidad del colectivo LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Colaborando con los distintos colegios profesionales, fomentaremos la formación y actualización de leyes y contenidos que les afecten en su trabajo respecto al colectivo LGTBI+",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reformaremos todos los formularios de las administraciones para que se adecúen a las nuevas realidades sociales. Así junto a las opciones en las que en la actualidad aparecen tan solo las opciones “madre/padre”, como fórmula de familia tradicional, aparecerán visibilizadas las opciones madre/madre o padre/padre para ayudar a la normalización de las familias diversas",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos la creación de centros LGTBI+ de acogida personal y familiar que ofrezcan información, apoyo psicológico, asesoramiento laboral, legal y jurídico a personas trans, intersexuales y a personas migradas o refugiadas que pertenezcan al colectivo LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Blindaremos el matrimonio igualitario mediante una reforma de la Constitución Española",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Medidas para el trato igualitario de mayores LGTBI+ en residencias, centros de día y lugares de ocio, así como apoyo a los proyectos sociales de la sociedad civil destinados a atender a los mayores LGTBI+.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos la creación de un Centro estatal de Documentación y Memoria Histórica LGTBI+. Promoveremos el homenaje del Congreso de los Diputados a las víctimas de la Ley de Peligrosidad Social.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lucharemos contra la doble discriminación sufrida por las mujeres del colectivo LGTBI+, como mujeres y como colectivo LGTBI+ , tanto en las campañas de prevención como en los protocolos de actuación contra la LGTBIfobia: acoso sexual, hipersexualización e invisibilización",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Nos comprometemos a no llegar a pactos de gobiernos que incluyan o estén apoyados por partidos políticos que atenten contra los derechos de las personas LGTBI+ y fomenten el odio y la discriminación, atendiendo como referencia fundamental a los Principios de Yogyakarta",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Proporcionaremos acceso a métodos de reproducción asistida, como el método ROPA, sin necesidad de que la pareja haya contraído matrimonio o esté registrada como pareja de hecho.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos un banco de ovocitos y esperma de carácter público y garantizaremos su acceso a las personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Campañas estatales de información, visibilización y ruptura de tabúes sobre las relaciones afectivo-sexuales de y con personas con diversidad funcional, en especial personas LGTBI+ con diversidad funcional, sometidas habitualmente a discriminación, infantilización y negación social de su sexualidad",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Prohibiremos por Ley las “terapias” de conversión o aversión de la sexualidad, tipificándolo en el Código Penal, siguiendo el ejemplo de Malta, que castiga la realización de estas prácticas.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Eliminaremos el requisito de un informe psiquiátrico-psicológico con diagnóstico de disforia de género para acceder a la cirugía y al tratamiento hormonal de reasignación de género dejando así de patologizar a las personas trans.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos una Ley Integral Trans que reconozca la autodeterminación de género a nivel institucional, incluyendo el género neutro e identidades no binarias, de acuerdo con la identidad sentida y manifestada, y estableciendo en todos los formularios administrativos de cualquier índole, una tercera casilla de “no binario” para indicar el género. Al mismo tiempo, prohibiremos que las entidades públicas y privadas exijan la autoidentificación de género o sexo de cualquier persona si no es estrictamente necesario. Al mismo tiempo, fomentaremos el uso del lenguaje inclusivo en la Administración Pública.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Crearemos una red de apoyo para las personas que han sido expulsadas de sus hogares por su identidad de género u orientación sexual",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "empleo-juvenil",
@@ -9543,7 +9962,426 @@
                 },
                 {
                     "id": "cambio-climatico",
-                    "commits": []
+                    "commits": [
+                        {
+                            "title": "Impulsaremos una Ley Orgánica de Transición Ecológica que sirva de marco regulatorio general para todo el ordenamiento legislativo que necesita la transición ecológica: ley de Cambio Climático, ley de Economía Circular, Ley de Movilidad Sostenible, etc.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "La otra cara de un pacto generacional roto es el desperdicio absurdo de la sabiduría y la experiencia acumulada por nuestros nuestras personas mayores, sometidas a un marco de políticas públicas que los infantiliza como sujetos pasivos incapaces de aportar nada al desarrollo social. Promoveremos por ley la creación de decanatos consultivos conformados por jubilados y jubiladas voluntarias que ejerzan como órgano de asesoramiento en el ámbito de la administración pública, la empresa, y el tercer sector. En la misma línea, la Estrategia Agroecológica Nacional destinará un paquete de ayudas al rescate de la sabiduría tradicional campesina, en vías de extinción generacional, y de enorme importancia para un sector primario sostenible aterrizado en las peculiaridades ecosistémicas de cada región del país",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos ventajas fiscales a la instalación de energías renovables, especialmente aquellas ligadas a proyectos ciudadano-participativos y a las comunidades energéticas así como a los contratos bilaterales a largo plazo (PPA) que ayuden a estabilizar el precio de la energía. Estas ventajas fiscales se concretarán sobre exenciones al impuesto a la producción eléctrica o en bonificaciones del impuesto de sociedades durante los primeros años de las instalaciones.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1ZhaNl2NjL_GSPcyC6IKk7xTRXt-6O4bv/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Siguiendo el ejemplo del Reino Unido crearemos un comité independiente y paritario con personas expertas formado por un equipo multidisciplinar con personal científico, economistas, representantes de los agentes sociales (sindicatos, empresas, organizaciones ecologistas), representantes de comunidades en riesgo, etc. Además de asesorar al gobierno y al legislativo, su tarea fundamental será proponer los objetivos de reducción de los presupuestos de carbono y evaluar el cumplimiento de los mismos mediante informes públicos.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1Id3xShM4utN-T9OnPGW6tTNxdo3_KW2p/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Por ello proponemos una Reforma Ecológica y feminista de la Contabilidad Nacional en dos claves: en primer término, desplazaremos al PIB del centro de gravedad de la acción económica. Siguiendo el camino inaugurado por Nueva Zelanda, constituiremos una Comisión Parlamentaria para introducir un Índice de bienestar que constituirá el nuevo concepto-guía en la elaboración de los Presupuestos General del Estado y en los objetivos de las diversas políticas públicas españolas.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1UqRgdlbvNlKsYnnNNBx5Rzs1HxVuOVZQ/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Revisión del Libro Blanco de Educación Ambiental, con especial atención a la crisis climática, en el marco de una Estrategia Nacional, refrendada en un congreso estatal, y coordinada con las actuales Estrategias Regionales de Educación Ambiental. La Estrategia Nacional será uno de los marcos referenciales para la acción de gobierno en todos los ministerios.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "En una apuesta por la formación continua como derecho durante toda la vida, impulsaremos que una parte de la formación interna de las grandes empresas se haga en materias de sensibilización y educación ambiental ante la crisis climática, atendiendo a criterios de igualdad de género.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1ag1jb4lYnb66dvP1B0POcodTtxurmUjl/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos que todos los edificios de la administración pública tengan que contratar de forma obligatoria la electricidad con suministradoras que garanticen un origen 100% renovable",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Desarrollaremos un programa estatal de transición ecológica de los centros educativos públicos en colaboración con las Comunidades Autónomas y agentes implicados con medidas de rehabilitación de edificios, uso de energías renovables, desplastificación, tratamiento de residuos y educación medioambiental transversal. Además, pondremos en marcha un plan por la alimentación sana y sostenible en los centros educativos, recuperando la dieta mediterránea con alimentos producidos a nivel local y ecológicos, así como la opción de disponer de menús 100% vegetarianos",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1Uf4NOsoVpgkblCreq3oCNHHIsJ86tZS1/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Se realizará un plan a varios años para instalar sistemas de autoconsumo fotovoltaico en todos los edificios de la administración pública en los que sea técnicamente posible hacerlo.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos la simplificación de los trámites y procedimientos administrativos para la instalación de proyectos de autoconsumo o producción ciudadana de energía renovable de origen fotovoltaico, micro-eólico y termosolar. Aumentaremos la capacidad de la administración para afrontar un número creciente de peticiones. Impulsaremos procedimientos y una mayor capacitación laboral para agilizar los procedimientos de la administración",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1NcQN48ELNiiDDFmUC_ipMNS8AWvF-gE9/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Uno de los grandes retos de una transición ecológica socialmente justa es su dimensión internacional. Los países más desarrollados tienen una deuda con aquellos en vías de desarrollo y debemos adquirir el compromiso de facilitar un desarrollo ecológico y justo compatible con los objetivos climáticos. Por ello, estableceremos acuerdos bilaterales con países en vías de desarrollo para facilitar la transferencia de tecnología y el uso de patentes mediante licencias en condiciones razonables.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1TDErnZK5uXYvNQHxAjsuua8hTMwJLaCQ/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cada Ministerio o entidad pública (AENA, Puertos del Estado...) estará obligado a diseñar y presentar ante la Vicepresidencia de Transición Ecológica (vía oficina de Coordinación Interministerial) su propio plan de neutralidad climática a 2040 compatible con la senda de reducción de emisiones para lograr que los objetivos generales de descarbonización se reflejen en las políticas sectoriales",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Todas las centrales nucleares se cerrarán a medida que vayan finalizando sus actuales licencias de explotación. Al igual que en el caso del carbón, se pondrán en marcha un plan integral de transición justa, en el marco del diálogo social, para los territorios donde existe una central nuclear. A su vez, replantearemos el proyecto de ATC (Almacén Temporal Centralizado) y abriremos un debate técnico y ciudadano sobre la instalación más adecuada para los residuos de alta actividad.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1hdXXNlFqt1HyXZvyThByjw7m8Aql8DIN/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lanzaremos un Fondo para una Transformación Verde que a través de instrumentos de deuda, cuasi-capital, capital y garantía, además de asistencia técnica, permita activar todos los recursos necesarios para impulsar los cambios sistémicos y la innovación necesaria para la transición ecológica",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Con el objetivo de diversificar y pluralizar las expresiones culturales, de garantizar el acceso y la participación cultural de la ciudadanía y de mejorar la coordinación entre la cultura, el patrimonio y otras esferas de la sociedad; pondremos en marcha diferentes medidas orientadas a la inclusión, la mediación, el retorno social y el fomento de públicos; adaptándolas a las diferentes necesidades tanto del ámbito rural como del urbano. Se hará hincapié en aquellos territorios con mayor dificultad de acceso provocada por la distancia física, la brecha digital o la ausencia de un tejido cultural desarrollado.",
+                            "compliance": "PARCIALMENTE CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/11lOx6wthsUx33jlg325r4-Nxs-OL6srv/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reduciremos el IVA al término fijo de la energía eléctrica.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1TTbLlEcwtvHeg9j_eZbH74_F4OMplDk-/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "En el marco de la Estrategia Nacional de Eco-Etiquetado, revisión de la certificación ecológica para incluir en ella aspectos relacionados con mochila de carbono, uso del agua, economía circular y condiciones laborales.",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1g2qNMIAIDRWkv15un6bbWuR-GYSfjemn/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Impulsaremos como objetivo que al menos un 40% de la energía renovable consumida en 2030 provenga del autoconsumo o generación distribuida",
+                            "compliance": "CUMPLIDO",
+                            "pdf": "https://drive.google.com/file/d/1m0Vlgl6Z-hPbirKjaQEi5OLA5Ah3yruH/view?usp=sharing",
+                            "initiatives": [
+                                {
+                                    "title": "Enmienda a Proyecto de Ley de cambio climático y transición energética",
+                                    "link": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/A/BOCG-14-A-19-2.PDF#page=1"
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Promoveremos recalibrar los requisitos de capital aplicables a los bancos (el denominado “factor de apoyo verde” o “green supporting factor”) para las inversiones sostenibles así como un factor de penalización por insostenibilidad (Brown penalising factor) que exigirá mayores requerimientos de capital los activos financieros insostenibles (por ejemplo, en empresas que invierten o dependen excesivamente de combustibles fósiles), cuando así se justifique desde el punto de vista del riesgo, velando al mismo tiempo por que se proteja la estabilidad financiera.",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Convertir el Pacto de Estabilidad y Crecimiento en un pacto de Estabilidad, Bienestar y Sostenibilidad al servicio de la Transición Ecológica y justa",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Apoyaremos la creación de un Programa piloto del Hidrógeno y de la Tecnología de Pila de Combustible y Electrolizadores. Este plan es complementario a todas las medidas de electrificación de nuestra sociedad. Estará encargado de la creación de una red de producción de hidrógeno verde acoplada a la producción de energía renovable así como proyectos piloto de redes de almacenamiento y distribución usando en todo lo posible la red actual de gas natural",
+                            "compliance": "NO CUMPLIDO",
+                            "pdf": "No hay actos",
+                            "initiatives": [
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "migraciones",
