@@ -17,8 +17,12 @@
 
       <p>La crisis sanitaria ha aumentado claramente las desigualdades preexistentes, afectando a la población más vulnerable (personas migrantes, mujeres y jóvenes). En este caso, hemos analizado la actividad parlamentaria derivada de la crisis sanitarias en las temáticas de pobreza infantil, desempleo juvenil y migraciones:</p>
 
-      <h3 @click="toggle('infancia')">
-        <span :class="{'is-expanded': isExpanded('infancia')}">La infancia después de la emergencia sanitaria de la COVID-19</span>
+      <h3>
+        <span
+          @click="toggle('infancia')"
+          :class="{'is-expanded': isExpanded('infancia')}">
+          La infancia después de la emergencia sanitaria de la COVID-19
+        </span>
       </h3>
 
       <div class="infancia" v-show="isExpanded('infancia')">
@@ -59,8 +63,12 @@
         <p>Por último, solo nos quedan las cifras. El Grupo Parlamentario Socialista ha presentado cuatro iniciativas, el Grupo Parlamentario Ciudadano ha presentado tres, el Grupo Parlamentario Popular ha presentado una, el Grupo Parlamentario Vox ha presentado una y el Grupo Parlamentario confederal de Unidas Podemos-En Comú Podem-Galicia en Común ha presentado una. En total 10 Proposiciones no de Ley.</p>
       </div>
 
-      <h3 @click="toggle('empleo')">
-        <span :class="{'is-expanded': isExpanded('empleo')}">Empleo juvenil</span>
+      <h3>
+        <span
+          @click="toggle('empleo')"
+          :class="{'is-expanded': isExpanded('empleo')}">
+          Empleo juvenil
+        </span>
       </h3>
 
       <div class="empleo" v-show="isExpanded('empleo')">
@@ -99,8 +107,12 @@
         <p>A modo de conclusión, la crisis de la pandemia ha condicionado de forma evidente a los jóvenes, quienes ya se encontraban en una situación laboral preocupante. Si bien el desempleo juvenil ya suponía un escenario problemático antes de la llegada de la crisis actual, la Covid 19 ha agraviado las carencias de nuestro sistema de empleo. Llegando de este modo a alcanzar alrededor de un 40% de paro juvenil, una de las cifras más altas de la historia en este sector. Parece que existe un cierto patrón preocupante entre el aumento del paro juvenil y la reducción de las iniciativas legislativas. Resultará necesario de cara al futuro, que los partidos cooperen en buscar soluciones en este ámbito, o al menos, ejecutar los compromisos de sus programas políticos en lo que queda de legislatura.</p>
       </div>
 
-      <h3 @click="toggle('migraciones')">
-        <span :class="{'is-expanded': isExpanded('migraciones')}">Migraciones</span>
+      <h3>
+        <span
+          @click="toggle('migraciones')"
+          :class="{'is-expanded': isExpanded('migraciones')}">
+          Migraciones
+        </span>
       </h3>
 
       <div class="migraciones" v-show="isExpanded('migraciones')">
