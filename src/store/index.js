@@ -47,7 +47,8 @@ export default createStore({
                   ...commit,
                   initiatives: commit.initiatives
                     .filter((i) => i.link.length > 0), // Remove empty initiatives
-                })),
+                }))
+                .filter((commit) => commit.title !== ''),
             }))
             .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
         }));
