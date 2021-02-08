@@ -33,6 +33,8 @@ const baseScore = {
   'NO CUMPLIDO': 0,
 };
 
+const tallysLimit = 40;
+
 export default {
   name: 'PartyChip',
   components: {
@@ -70,7 +72,7 @@ export default {
         const totalTallys = Object.keys(score2).reduce((acc, key) => acc + score2[key], 0);
 
         let reduceFactor = 1;
-        if (totalTallys > 20) reduceFactor = 20 / totalTallys;
+        if (totalTallys > tallysLimit) reduceFactor = tallysLimit / totalTallys;
         if (totalTallys === 0) reduceFactor = 0;
 
         return Object.keys(score2).map((key) => ({
@@ -119,7 +121,7 @@ export default {
   background: rgba(255,255,255,0.1);
   border: 3px solid white;
   border-radius: 30px;
-  padding: 6px 18px;
+  padding: 2px 9px;
   margin-bottom: 16px;
   transition: background-color 250ms ease;
   display: flex;
@@ -132,10 +134,29 @@ export default {
   &__name {
     font-weight: 700;
     font-size: 24px;
+    line-height: 36px;
+    font-size: 14px;
   }
   &__values {
     height: 20px;
     margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .party-chip {
+    padding: 6px 18px;
+    &__name {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .party-chip {
+    &__name {
+      font-size: 22px;
+    }
   }
 }
 </style>

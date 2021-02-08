@@ -62,7 +62,6 @@ export default createStore({
      * Sort parties list
      */
     sortParties(state, topic) {
-      /*
       if (topic) {
         state.parties = state.parties.sort((a, b) => {
           const partyTopicA = a.overview.find((o) => o.id === topic);
@@ -75,7 +74,6 @@ export default createStore({
       } else {
         state.parties = state.parties.sort(sortPartiesByGeneralCompliance);
       }
-      */
     },
   },
   actions: {
@@ -105,7 +103,7 @@ export default createStore({
      * Sort party list by topic score
      */
     sortParties(commit, topicName) {
-      this.commit('sortParties', topicName);
+      // this.commit('sortParties', topicName);
     },
   },
   getters: {
