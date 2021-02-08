@@ -49,8 +49,8 @@ export default createStore({
                 })),
             }))
             .sort((a, b) => topics.get(a.id).localeCompare(topics.get(b.id))),
-        }))
-        .sort(sortPartiesByGeneralCompliance);
+        }));
+      // .sort(sortPartiesByGeneralCompliance);
     },
     /**
      * Update party data
@@ -62,6 +62,7 @@ export default createStore({
      * Sort parties list
      */
     sortParties(state, topic) {
+      /*
       if (topic) {
         state.parties = state.parties.sort((a, b) => {
           const partyTopicA = a.overview.find((o) => o.id === topic);
@@ -74,6 +75,7 @@ export default createStore({
       } else {
         state.parties = state.parties.sort(sortPartiesByGeneralCompliance);
       }
+      */
     },
   },
   actions: {
