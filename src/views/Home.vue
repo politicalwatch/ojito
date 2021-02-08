@@ -12,6 +12,7 @@
     </div>
 
     <div class="topic-filter">
+      <label for="filter" aria-hidden="false">Selecciona una temática</label>
       <select name="filter" id="filter" v-model="activeFilter">
         <option selected value="">Selecciona una temática</option>
         <option
@@ -116,6 +117,9 @@ export default {
   margin: 0 auto 60px;
   position: relative;
   z-index: 1;
+  label {
+    display: none;
+  }
   select {
     display: block;
     width: calc(100% - 20px);

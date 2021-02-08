@@ -2,11 +2,11 @@
   <div class="page page--party party">
 
     <router-link :to="{name: 'home'}" class="page__logo">
-      <img src="/img/logo-sm.svg" alt="Ojito">
+      <img src="/img/logo-sm.svg" alt="Ojito" aria-label="Ir al inicio">
     </router-link>
 
     <router-link :to="{name: 'home'}" class="page__close">
-      <img src="/img/icons/close.svg" alt="Cerrar">
+      <img src="/img/icons/close.svg" alt="Cerrar"  aria-label="Cerrar">
     </router-link>
 
     <div class="party__head">

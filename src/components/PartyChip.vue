@@ -1,5 +1,5 @@
 <template>
-  <div class="party-chip" @click="goToParty">
+  <div class="party-chip" :aria-label="`Ver ${party.shortname}`" @click="goToParty">
     <div class="party-chip__name">
       {{party.shortname}}
     </div>
