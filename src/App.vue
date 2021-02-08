@@ -7,20 +7,33 @@
       :style="{backgroundColor: party.color}"
     ></div>
     <Footer/>
+    <CookiesMsg v-if="isCookiesActive"></CookiesMsg>
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
 import Footer from '@/components/Footer.vue';
+import CookiesMsg from '@/components/CookiesMsg.vue';
 
 export default {
   name: 'App',
   components: {
     Footer,
+    CookiesMsg,
+  },
+  data() {
+    return {
+      cookiesStorageName: 'cookies-msg',
+    };
   },
   computed: {
-    ...mapGetters(['party']),
+    ...mapGetters(['party', 'isCookiesActive']),
+  },
+  mounted() {
+    if (localStorage.getItem(this.cookiesStorageName)) {
+      this.$store.dispatch('hideCookieMsg');
+    }
   },
 };
 </script>

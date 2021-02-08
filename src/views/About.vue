@@ -47,6 +47,8 @@
         <li>Crear una nueva herramienta de monitoreo cívico que ofrezca un análisis útil, actual y fiable sobre el cumplimiento de los compromisos del Gobierno y de los grupos parlamentarios en temas sociales, climáticos y económicos como vía para movilizar a la opinión pública y una voluntad política comprometida con estas cuestiones clave.</li>
       </ol>
 
+      <p>Puedes consultar nuestro Aviso Legal <router-link :to="{name: 'cookies'}">aquí</router-link>.</p>
+
     </div>
 
   </div>

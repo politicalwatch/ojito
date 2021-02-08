@@ -16,6 +16,7 @@ export default createStore({
     topics: [],
     parties: [],
     party: {},
+    isCookiesActive: true,
   },
   mutations: {
     /**
@@ -75,6 +76,13 @@ export default createStore({
         state.parties = state.parties.sort(sortPartiesByGeneralCompliance);
       }
     },
+    /**
+     * Hide cookies message
+     */
+    hideCookieMsg(state) {
+      state.isCookiesActive = false;
+      localStorage.setItem('cookies-msg', 1);
+    },
   },
   actions: {
     /**
@@ -102,13 +110,20 @@ export default createStore({
     /**
      * Sort party list by topic score
      */
-    sortParties(commit, topicName) {
+    sortParties(commit, topicName) { //eslint-disable-line
       // this.commit('sortParties', topicName);
+    },
+    /**
+     * Hide cookies message
+     */
+    hideCookieMsg() {
+      this.commit('hideCookieMsg');
     },
   },
   getters: {
     topics(state) { return state.topics; },
     parties(state) { return state.parties; },
     party(state) { return state.party; },
+    isCookiesActive(state) { return state.isCookiesActive; },
   },
 });

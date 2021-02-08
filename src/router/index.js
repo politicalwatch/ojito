@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+import store from '@/store';
 import Home from '../views/Home.vue';
 
 const routes = [
@@ -32,6 +33,11 @@ const routes = [
     name: 'contact',
     component: () => import('../views/Contact.vue'),
   },
+  {
+    path: '/cookies',
+    name: 'cookies',
+    component: () => import('../views/CookiesPage.vue'),
+  },
 ];
 
 const router = createRouter({
@@ -41,6 +47,13 @@ const router = createRouter({
     document.getElementById('app').scrollTop = 0;
     return { left: 0, top: 0 };
   },
+});
+
+// Register cookies message as view in localStorage
+router.beforeEach((to, from) => {
+  if (from.name) {
+    store.dispatch('hideCookieMsg');
+  }
 });
 
 export default router;

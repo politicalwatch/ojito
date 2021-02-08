@@ -79,10 +79,10 @@ export default {
       const limit = 36;
       const steps = 3;
 
-      if (!this.isScrolled && myElement.scrollLeft < limit) {
+      if (myElement && !this.isScrolled && myElement.scrollLeft < limit) {
         myElement.scrollLeft += steps;
         window.requestAnimationFrame(this.showScroll);
-      } else if (myElement.scrollLeft > 0) {
+      } else if (myElement && myElement.scrollLeft > 0) {
         this.isScrolled = true;
         myElement.scrollLeft -= steps;
         window.requestAnimationFrame(this.showScroll);
