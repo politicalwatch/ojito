@@ -201,6 +201,7 @@ export default {
     &-compliance {
       margin-top: -7px;
       width: 70px;
+      height: 70px;
       transform: rotate(-9deg);
     }
     &-meta {
