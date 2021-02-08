@@ -175,10 +175,11 @@ export default {
       padding-right: 20px;
       background: white;
       position: relative;
+      display: inline-block;
       &:after {
         content: "";
         position: absolute;
-        top: 7px;
+        top: 9px;
         right: 7px;
         width: 6px;
         height: 6px;
