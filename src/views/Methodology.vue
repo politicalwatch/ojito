@@ -74,6 +74,7 @@
 
       <p class="list-cap">La <a href="https://www.congreso.es/web/guest/grupos/composicion-en-la-legislatura">composición de los 10 grupos parlamentarios</a>, formados por los 19 partidos políticos es la siguiente:</p>
       <ul>
+        <li>Grupo Parlamentario Socialista: 120 miembros</li>
         <li>Grupo Parlamentario Popular en el Congreso: 88 miembros</li>
         <li>Grupo Parlamentario VOX: 52 miembros</li>
         <li>Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común: 35 miembros</li>
