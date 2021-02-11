@@ -4,6 +4,7 @@
       <router-link :to="{name: 'about'}">Acerca de</router-link>
       <router-link :to="{name: 'methodology'}">Metodología</router-link>
       <router-link :to="{name: 'covid-report'}">Informe COVID</router-link>
+      <router-link :to="{name: 'final-report'}">Informe Final</router-link>
       <router-link :to="{name: 'contact'}">Contacto</router-link>
     </div>
     <div class="footer__social">
@@ -43,13 +44,21 @@ export default {
 
   &__wrap {
     display: block;
-    max-width: 320px;
+    max-width: 450px;
     margin: 12px auto 0;
     font-size: 14px;
     display: flex;
+    flex-wrap: wrap;
+    white-space: pre;
     justify-content: space-between;
     padding: 4px 14px;
     opacity: 0.9;
+    > a {
+      display: block;
+      flex: 1 1 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
   }
 
   &__social {
@@ -78,6 +87,16 @@ export default {
     padding-bottom: 20px;
     img {
       width: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .footer__wrap {
+    flex-wrap: nowrap;
+    a {
+      display: block;
+      flex: 0 0 auto;
     }
   }
 }

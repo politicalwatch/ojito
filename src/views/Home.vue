@@ -11,6 +11,12 @@
       <img src="img/logo.svg" alt="Ojito" id="logo">
     </div>
 
+    <div class="download download--home">
+      <a href="/pdf/InformeFinalOJITO.pdf" download="Informe-OJITO.pdf">
+        <button>Descargar informe en PDF</button>
+      </a>
+    </div>
+
     <div class="topic-filter">
       <label for="filter" aria-hidden="false">Selecciona una temática</label>
       <select name="filter" id="filter" v-model="activeFilter">

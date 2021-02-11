@@ -29,6 +29,11 @@ const routes = [
     component: () => import('../views/CovidReport.vue'),
   },
   {
+    path: '/informe-final',
+    name: 'final-report',
+    component: () => import('../views/FinalReport.vue'),
+  },
+  {
     path: '/contacto',
     name: 'contact',
     component: () => import('../views/Contact.vue'),
