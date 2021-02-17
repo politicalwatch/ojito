@@ -99,11 +99,13 @@ export default {
   methods: {
     goToParty() {
       this.$store.dispatch('setParty', this.party);
+      const query = this.filter ? { tab: this.filter } : {};
       this.$router.push({
         name: 'party',
         params: {
           party: this.party.shortname,
         },
+        query,
       });
     },
     tallyMarksColor(tally) {

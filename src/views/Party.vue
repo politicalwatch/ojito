@@ -57,6 +57,7 @@ export default {
     ...mapGetters(['parties', 'topics', 'party']),
   },
   mounted() {
+    // Set current party
     if (!this.parties.length) {
       this.$store.dispatch('getParties');
     } else {
@@ -90,6 +91,7 @@ export default {
     },
     setCommitment(commit) {
       this.commitment = commit;
+      this.$router.push({ query: { tab: commit.id } });
     },
     getCommitmentName(commitment) {
       const topic = this.topics.find((t) => t.id === commitment.id);
@@ -115,6 +117,14 @@ export default {
       // Change body background
       const app = document.getElementById('app');
       app.style.background = `linear-gradient(90deg, ${party.color}99 30%, ${party.color} 100%)`;
+
+      // Set current tab
+      if (this.$route.query && this.$route.query.tab && this.party.commitments.length) {
+        const commitment = this.party.commitments.find((c) => c.id === this.$route.query.tab);
+        if (commitment) {
+          this.setCommitment(commitment);
+        }
+      }
     },
   },
   watch: {
