@@ -1,6 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer__wrap">
+      <router-link :to="{name: 'interviews'}">Entrevistas</router-link>
       <router-link :to="{name: 'about'}">Acerca de</router-link>
       <router-link :to="{name: 'methodology'}">Metodología</router-link>
       <router-link :to="{name: 'covid-report'}">Informe COVID</router-link>

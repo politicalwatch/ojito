@@ -43,6 +43,16 @@ const routes = [
     name: 'cookies',
     component: () => import('../views/CookiesPage.vue'),
   },
+  {
+    path: '/entrevistas',
+    name: 'interviews',
+    component: () => import('../views/Interviews.vue'),
+  },
+  {
+    path: '/entrevistas/:interview',
+    name: 'interview',
+    component: () => import('../views/Interview.vue'),
+  },
 ];
 
 const router = createRouter({
