@@ -38,7 +38,7 @@ export default {
     return {
       interviews: [
         {
-          link: 'mar2',
+          link: 'mar',
           title: 'Mar Cambrollé'
         }
       ]
